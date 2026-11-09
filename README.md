@@ -2,6 +2,22 @@
 
 Rules that flag the moments that matter in sales calls, measured against labeled calls instead of assumed to work.
 
+## In one minute
+
+- **18 rules, graded before anyone uses them.** On 4,005 real, PII-redacted Medicare sales calls, four rules clear the bar for live alerts: precision of 90% or more and recall of 80% or more on 100 held-out calls. The rest are graded QA only, not yet, too rare to test, or exploratory ([the table](#read-this-first)).
+- **Compliance gaps.** 84% of calls open by implying Medicare is calling. The third-party disclaimer is read in 1.1% of calls (44). In the 24 of those where the benefit trigger also finds a specific benefit, the benefit always comes first, 3 to 20 minutes earlier. Since Oct 1, 2026, the disclaimer has to come first.
+- **A workflow for enrollment season.** Replaying 3,750 calls through a disclaimer-before-benefits check, the trigger finds the first benefit a median of 49 seconds in, often a sentence late. A live prompt would fire on 7 of every 10 calls, so the script is the fix and live guidance is the safety net ([the build sheet](docs/enrollment-season-workflow.md)).
+- **What it can't show: what wins.** Three apparent conversion wins were withdrawn. Checks found recordings that start after the handoff, handoffs the transfer rule missed, and moments said after the transfer.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/img/alert-budget-dark.png">
+  <img alt="Bar chart of the share of calls each compliance rule would alert on if it ran live: no recording notice before the handoff 98%, opener implies Medicare is calling 90%, benefit before the disclaimer 70%, money-back promise 40%, 'no one will call you again' 5%, stop-calling request 0.3%, against a rule of thumb of under 1 call in 10 for a live alert." src="docs/img/alert-budget-light.png">
+</picture>
+
+Only the two rare rules fit the 1-in-10 budget, and neither is Ready yet, so a person reads their flags. The rest need a script or process fix, not an alert.
+
+## What's here
+
 The calls are 4,005 PII-redacted outbound Medicare sales calls (433 hours) from a public research dataset. The project defines 18 moments, writes rules for each, has AI reviewers label 301 calls against written guidelines, freezes every rule version, and scores them once on 100 held-out calls the rules never saw. Then it runs the rules across every call to turn hits into findings a contact-center team could act on.
 
 ## Read this first
@@ -62,7 +78,7 @@ Scripted agent moments are easy for rules; the Medicare-number ask, also agent-s
 Rates from calls made before mid-2025, each tagged with the grade of the rule behind it.
 
 - **84%** of calls open by implying Medicare itself is calling ("your Medicare is getting upgraded"), about 12 seconds in. Labels on 250 random calls put it at 85.6%. A third of all calls pair it with a money-back promise (a giveback, a Part B reduction, or money added to the Social Security check). *Ready.*
-- The third-party marketer disclaimer appears in **44 calls (1.1%)**, and never in the first minute, which was the CMS rule when these calls were made. Since Oct 1, 2026 (CY2027), it must come before any benefits are discussed, and in 32 of the 44 calls the benefits pitch comes first. *Too rare to test; labels on 250 random calls agree (1.2%).*
+- The third-party marketer disclaimer appears in **44 calls (1.1%)**, never in the first minute, which was the CMS rule from October 2022 to September 2026. Since Oct 1, 2026 (CY2027), it must come before any benefits are discussed. In 24 of the 44, a specific benefit comes first, 3 to 20 minutes earlier; the benefit trigger finds none in the other 20. Of the 2,607 calls recorded from the start where the agent names a benefit, 2,583 never read the disclaimer at all ([the enrollment-season workflow](docs/enrollment-season-workflow.md)). *Too rare to test; labels on 250 random calls agree (1.2%).*
 - An independent read of all 16 flagged do-not-call calls found **13 genuine requests**. In 11 the pitch continued, and in 6 the agent promised the calls would stop. That promise appears in 198 calls, two times in three just after the transfer cue, so it's part of the handoff script. *Too rare to test, so a reviewer read every flag; the promise rule is exploratory.*
 - **What wins can't be read from these calls yet.** The only outcome recorded is the handoff to a licensed agent. Recordings stop a median of 2.5 minutes after it, and none captures a finished enrollment. 255 recordings open after the handoff ("thank you for holding"), so a transfer rarely shows in them. Of the other 3,750, 97% are handed off once you count the connection lines the transfer rule missed. About one recording in ten overlaps another recording of the same call. Counted only before the handoff, and with every call given the same time, no moment moves the handoff rate enough to act on (`results/transfer_from_start.json`). *Not yet: there's no outcome past the handoff.*
 - **Withdrawn:** three earlier reads of what wins. Calls with a Medicare-number ask seemed to transfer less (84.8% against 92.2%), the stop-calling promise seemed to lift transfers, and so did the Medicare opener. The gaps came from recordings that open after the handoff (half of all recordings with no transfer cue), handoffs the transfer rule missed, and moments said after the transfer (two-thirds of number asks and promises). Asks made before the handoff go with the same handoff rate as no ask: 96.9% against 97.4%.
@@ -101,6 +117,8 @@ python scripts/embed.py work/corpus.jsonl work/speaker_tags.json rules/utterance
 python scripts/evaluate.py work/corpus.jsonl rules/rules_v4.json labels/heldout/sample.json labels/heldout work/eval_heldout.json --sp work/speaker_tags.json --u work/utter_sims.json
 python scripts/analysis_final.py work/corpus.jsonl rules/rules_v4.json rules/rules_discovered.json work/speaker_tags.json work/analysis.json
 python scripts/analysis_success.py work/corpus.jsonl work/analysis.json labels/tuning labels/heldout work/transfer_from_start.json
+python scripts/workflow_sim.py work/corpus.jsonl work/analysis.json work/speaker_tags.json rules/benefit_mention.json work/transfer_from_start.json results/workflow_sim.json work/benefit_spot_private.json
+python scripts/chart_alert_budget.py results/workflow_sim.json docs/img
 ```
 
 `prep.py` numbers calls `C0001` to `C4005` in sorted file order, so the IDs regenerate from the dataset without publishing its file names (which look like phone numbers). Keep `work/` private: it holds transcript text. Embedding runs at about 10 to 60 sentences a second on two CPU cores.
@@ -119,7 +137,7 @@ Two later reviews, prompted by the question of what wins, found what that check 
 
 - Labels are AI-drafted: careful but not perfect. On the card check versus the Medicare-number ask, similar calls got different answers.
 - The handoff is the only outcome, and 97% of calls recorded from the start get one, so the few misses can't show what loses. The transfer rule misses some handoffs: in the labeled sample, 7 of the 20 recordings it marks as not transferred were labeled transferred. Transfer comparisons set aside the 255 recordings that open after the handoff and count moments only before it (`scripts/analysis_success.py`). Every comparison is an association.
-- Calls have no dates. The dataset was published in mid-2025, so disclosures are checked against the first-minute rule in force then and the before-benefits rule since Oct 1, 2026. There are no trends over time.
+- Calls have no dates. The dataset was published in mid-2025, and the disclaimer rule began in October 2022, so some calls may predate it. Disclosures are checked against the first-minute rule (October 2022 to September 2026) and the before-benefits rule since Oct 1, 2026. There are no trends over time.
 - Customer moments are rare. The held-out test has 25 already-covered and 11 trust positives, but only 1 not-interested and no do-not-call, so their intervals are wide.
 - About one recording in ten overlaps another recording of the same call: 183 to 240 pairs of adjacent recordings, depending on the matching rule, often the first agent's side and the licensed agent's side. None crosses between the tuning and held-out sets. Corpus-wide rates count recordings, not calls.
 

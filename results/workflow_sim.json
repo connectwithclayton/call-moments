@@ -1,0 +1,102 @@
+{
+ "recordings_from_start": 3750,
+ "recorded_hours": 401.7,
+ "with_benefit_mention": 2607,
+ "with_benefit_pct": 69.5,
+ "first_benefit_seconds": {
+  "p25": 38,
+  "median": 49,
+  "p75": 72
+ },
+ "first_benefit_within_60s_pct": 64.9,
+ "disclaimer_any": 42,
+ "disclaimer_median_seconds": 475,
+ "disclaimer_before_first_benefit": 0,
+ "benefit_calls_without_disclaimer": 2583,
+ "benefit_calls_with_disclaimer": 24,
+ "benefit_first_gap_minutes": {
+  "min": 3.0,
+  "median": 6.8,
+  "max": 20.0
+ },
+ "urgent_prompt_calls": 2607,
+ "urgent_prompt_pct": 69.5,
+ "first_benefit_words": [
+  [
+   "dental",
+   2183
+  ],
+  [
+   "money",
+   348
+  ],
+  [
+   "transportation",
+   25
+  ],
+  [
+   "no",
+   22
+  ],
+  [
+   "vision",
+   18
+  ],
+  [
+   "over",
+   3
+  ],
+  [
+   "to",
+   2
+  ],
+  [
+   "in",
+   2
+  ]
+ ],
+ "alert_budget": {
+  "medicare_affiliation_claim": {
+   "fires_on": "medicare_affiliation_claim",
+   "calls": 3359,
+   "pct": 89.6
+  },
+  "money_back_claim": {
+   "fires_on": "money_back_claim",
+   "calls": 1480,
+   "pct": 39.5
+  },
+  "recording_notice": {
+   "fires_on": "no recording notice before the handoff",
+   "calls": 3674,
+   "pct": 98.0
+  },
+  "do_not_call_request": {
+   "fires_on": "do_not_call_request",
+   "calls": 13,
+   "pct": 0.3
+  },
+  "no_more_calls_promise": {
+   "fires_on": "no_more_calls_promise",
+   "calls": 198,
+   "pct": 5.3
+  },
+  "tpmo_disclaimer": {
+   "fires_on": "benefit before the disclaimer (urgent prompt)",
+   "calls": 2607,
+   "pct": 69.5
+  }
+ },
+ "recording_notice": {
+  "any_pct": 30.9,
+  "none_pct": 69.1,
+  "before_detected_handoff_pct": 1.2,
+  "first_minute_pct": 0.4
+ },
+ "disclaimer_calls_all_recordings": {
+  "calls": 44,
+  "benefit_first": 24,
+  "disclaimer_first": 0,
+  "no_benefit_detected": 20
+ }
+}

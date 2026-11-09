@@ -6,7 +6,7 @@
   "group": "Compliance",
   "side": "agent",
   "definition": "The agent gives the third-party marketer disclaimer: in substance, \"we do not offer every plan available in your area.\"",
-  "action": "Real time: prompt the agent to read it before the first benefit comes up (today's rule; it was the first minute when these calls were made). After the call: send calls without it to QA.",
+  "action": "Script: read it in the opener, before any benefit (today's rule; from October 2022 to September 2026 it was the first minute). Real time: a prompt as a safety net if a benefit comes up first. After the call: send calls without it to QA.",
   "notes": {
    "v1": "One phrase: \"every plan\".",
    "v2": "Negated variants (\"don't offer every plan\", \"not able to offer every plan\") and the State Health Insurance Program.",
@@ -21,7 +21,7 @@
   "group": "Compliance",
   "side": "agent",
   "definition": "The agent, or a recorded message, says the call is recorded or monitored.",
-  "action": "After the call: flag calls with no recording notice in the first minute, since several states require consent from everyone on the call.",
+  "action": "Play the notice automatically when the call connects. After the call: flag calls with no notice before the handoff, since several states require consent from everyone on the call.",
   "notes": {
    "v1": "One word: \"recorded\".",
    "v2": "\"This call is recorded or monitored\", \"for quality and training\", \"recorded line\".",

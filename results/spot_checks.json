@@ -48,5 +48,11 @@
    "n": 25,
    "correct": 16
   }
+ },
+ "benefit_mention": {
+  "version": "d1",
+  "n": 25,
+  "correct": 24,
+  "note": "All 25 were agent speech naming a benefit; the 25th named money back during the handoff. In 16 of 25, an earlier sentence had already offered $0 or covered copays, which the trigger misses, so it can fire a sentence late."
  }
 }

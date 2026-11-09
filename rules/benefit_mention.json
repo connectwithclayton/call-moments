@@ -1,0 +1,11 @@
+[
+ {"id": "benefit_d1", "moment": "benefit_mention", "version": "d1", "speaker": "agent",
+  "any": ["dental", "vision", "hearing (aid | aids)", "(eye | eyes) (exam | exams | glasses)", "over the counter",
+          "(grocery | groceries | food) (allowance | card | benefit | benefits | money)", "flex card",
+          "transportation", "(gym | fitness) (membership | memberships | benefit)",
+          "(zero | 0 | no) (dollar)? (premium | premiums | copay | copays | co pay)",
+          "(give back | giveback | money back)", "(lower | reduce | reduced | reduction) ~ (premium | part b)",
+          "part b ~ (reduction | reimbursement | give back | back)",
+          "(on | in | to | into) (your | the)? social security (check | checks | benefit | payment)"],
+  "not_in": ["part a and (part)? b", "hard of hearing", "can you hear", "do you have (medicaid | part)"]}
+]
