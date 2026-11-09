@@ -1,0 +1,219 @@
+{
+ "bars": {
+  "live_precision": 0.9,
+  "live_recall": 0.8,
+  "qa_precision": 0.5,
+  "qa_recall": 0.8,
+  "min_positives": 10
+ },
+ "levels": {
+  "ready": "Ready",
+  "qa": "QA only",
+  "not_yet": "Not yet",
+  "too_rare": "Too rare to test",
+  "exploratory": "Exploratory"
+ },
+ "uses": {
+  "ready": "Live alerts and rate reporting",
+  "qa": "A QA queue where a person checks each flag",
+  "not_yet": "Not for use yet",
+  "too_rare": "Only with a person reading every flag",
+  "exploratory": "Reading calls and sampling; not for rates"
+ },
+ "moments": {
+  "tpmo_disclaimer": {
+   "level": "too_rare",
+   "label": "Too rare to test",
+   "use": "Only with a person reading every flag",
+   "precision": null,
+   "recall": null,
+   "variant": "v4",
+   "flags": 0,
+   "correct": 0,
+   "positives": 0,
+   "caught": 0,
+   "evidence": "no held-out cases; tuning set: 21 of 21 flags right; labels on 250 random calls find it in 1.2%, rules in 1.1%"
+  },
+  "recording_notice": {
+   "level": "ready",
+   "label": "Ready",
+   "use": "Live alerts and rate reporting",
+   "precision": 1.0,
+   "recall": 0.9583333333333334,
+   "variant": "v4",
+   "flags": 23,
+   "correct": 23,
+   "positives": 24,
+   "caught": 23,
+   "evidence": "held-out: 23 of 23 flags right, 23 of 24 cases caught"
+  },
+  "medicare_affiliation_claim": {
+   "level": "ready",
+   "label": "Ready",
+   "use": "Live alerts and rate reporting",
+   "precision": 1.0,
+   "recall": 0.9550561797752809,
+   "variant": "v4",
+   "flags": 85,
+   "correct": 85,
+   "positives": 89,
+   "caught": 85,
+   "evidence": "held-out: 85 of 85 flags right, 85 of 89 cases caught"
+  },
+  "money_back_claim": {
+   "level": "ready",
+   "label": "Ready",
+   "use": "Live alerts and rate reporting",
+   "precision": 1.0,
+   "recall": 1.0,
+   "variant": "v4",
+   "flags": 35,
+   "correct": 35,
+   "positives": 35,
+   "caught": 35,
+   "evidence": "held-out: 35 of 35 flags right, 35 of 35 cases caught"
+  },
+  "do_not_call_request": {
+   "level": "too_rare",
+   "label": "Too rare to test",
+   "use": "Only with a person reading every flag",
+   "precision": null,
+   "recall": null,
+   "variant": "v4",
+   "flags": 0,
+   "correct": 0,
+   "positives": 0,
+   "caught": 0,
+   "evidence": "no held-out cases; every flagged call read by an independent reviewer: 13 of 16 were real"
+  },
+  "not_interested": {
+   "level": "too_rare",
+   "label": "Too rare to test",
+   "use": "Only with a person reading every flag",
+   "precision": null,
+   "recall": 0.0,
+   "variant": "v4",
+   "flags": 0,
+   "correct": 0,
+   "positives": 1,
+   "caught": 0,
+   "evidence": "only 1 held-out case"
+  },
+  "already_covered": {
+   "level": "qa",
+   "label": "QA only",
+   "use": "A QA queue where a person checks each flag",
+   "precision": 0.5365853658536586,
+   "recall": 0.88,
+   "variant": "v4r",
+   "flags": 41,
+   "correct": 22,
+   "positives": 25,
+   "caught": 22,
+   "evidence": "held-out: 22 of 41 flags right, 22 of 25 cases caught (recall mode)"
+  },
+  "trust_concern": {
+   "level": "not_yet",
+   "label": "Not yet",
+   "use": "Not for use yet",
+   "precision": 1.0,
+   "recall": 0.2727272727272727,
+   "variant": "v4",
+   "flags": 3,
+   "correct": 3,
+   "positives": 11,
+   "caught": 3,
+   "evidence": "held-out: 3 of 3 flags right, 3 of 11 cases caught"
+  },
+  "transfer_to_agent": {
+   "level": "ready",
+   "label": "Ready",
+   "use": "Rate reporting: it is the conversion outcome",
+   "precision": 0.9767441860465116,
+   "recall": 0.9333333333333333,
+   "variant": "v4",
+   "flags": 86,
+   "correct": 84,
+   "positives": 90,
+   "caught": 84,
+   "evidence": "held-out: 84 of 86 flags right, 84 of 90 cases caught"
+  },
+  "medicare_number_request": {
+   "level": "not_yet",
+   "label": "Not yet",
+   "use": "Not for use yet",
+   "precision": 0.47619047619047616,
+   "recall": 0.8333333333333334,
+   "variant": "v4",
+   "flags": 21,
+   "correct": 10,
+   "positives": 12,
+   "caught": 10,
+   "evidence": "held-out: 10 of 21 flags right, 10 of 12 cases caught"
+  },
+  "comprehension_friction": {
+   "level": "exploratory",
+   "label": "Exploratory",
+   "use": "Reading calls and sampling; not for rates",
+   "precision": 0.88,
+   "recall": null,
+   "evidence": "22 of 25 random hits judged right; recall not measured"
+  },
+  "card_not_handy": {
+   "level": "exploratory",
+   "label": "Exploratory",
+   "use": "Reading calls and sampling; not for rates",
+   "precision": 0.92,
+   "recall": null,
+   "evidence": "23 of 25 random hits judged right; recall not measured"
+  },
+  "unsure_of_coverage": {
+   "level": "exploratory",
+   "label": "Exploratory",
+   "use": "Reading calls and sampling; not for rates",
+   "precision": 0.84,
+   "recall": null,
+   "evidence": "21 of 25 random hits judged right; recall not measured"
+  },
+  "asks_call_purpose": {
+   "level": "exploratory",
+   "label": "Exploratory",
+   "use": "Reading calls and sampling; not for rates",
+   "precision": 0.96,
+   "recall": null,
+   "evidence": "24 of 25 random hits judged right; recall not measured"
+  },
+  "bad_time_callback": {
+   "level": "not_yet",
+   "label": "Not yet",
+   "use": "Not for use yet",
+   "precision": 0.64,
+   "recall": null,
+   "evidence": "16 of 25 random hits judged right; recall not measured"
+  },
+  "call_fatigue": {
+   "level": "exploratory",
+   "label": "Exploratory",
+   "use": "Reading calls and sampling; not for rates",
+   "precision": 0.84,
+   "recall": null,
+   "evidence": "21 of 25 random hits judged right; recall not measured"
+  },
+  "no_more_calls_promise": {
+   "level": "exploratory",
+   "label": "Exploratory",
+   "use": "Reading calls and sampling; not for rates",
+   "precision": 1.0,
+   "recall": null,
+   "evidence": "25 of 25 random hits judged right; recall not measured"
+  },
+  "card_ready_check": {
+   "level": "exploratory",
+   "label": "Exploratory",
+   "use": "Reading calls and sampling; not for rates",
+   "precision": 0.96,
+   "recall": null,
+   "evidence": "24 of 25 random hits judged right; recall not measured"
+  }
+ }
+}

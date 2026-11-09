@@ -1,0 +1,16 @@
+Frozen 2026-10-28T23:16:18Z, before any rule was scored on the 100 held-out validation calls.
+v1 and v2 were frozen earlier (2026-10-28T22:33:45Z), before any scoring at all.
+v3 and v4 were tuned on the 201-call tuning set only. Speaker inference settings: 4-grams seen in 20+ calls, agent if 40%+ of a sentence's 4-grams are script.
+Utterance thresholds chosen on the tuning set: already_covered 0.84, not_interested 0.88 (trust_concern stays keyword-only; the utterance layer did not raise its F1).
+
+368a79ebd2717b57ac14dad48730aaa22efe5d1cf7245a894bb0cbd83d47f587  rules/rules_v1_v2.json
+b03de925a488f1d207d6c28eb52ffa77e45696950e978200a3f523bc8469179f  rules/rules_v3.json
+b0f651f3047ca0a37d67ab096e4ffa3d36823676f281238e827eae845fce1415  rules/rules_v4.json
+76ad62cfe069add6e7cefa5a47966d41f6af6dd18a169d4f05eb8288e84b40c9  rules/rules_discovered.json
+bd254c56c963a341c2d05b1a63ecd3bb4ca6111a0ec5c3aea0e3f48a435ebf28  rules/utterances.json
+3ca51c7025eaea8a7c7f07ad77f95746dcbaebe1e6845c94f145aec3a64d6ac7  scripts/engine.py
+6b307200363360d377ae339b86f9a51226f24c0bad361f236d389c952b069727  scripts/engine.js
+4632fd73874b260b9f8fdd39412ac02f623091c12810a9398f6e6e98e36b4b6a  scripts/speaker_infer.py
+
+Revised after the freeze: rules_discovered.json gained the d2 revisions of two discovered rules (2026-10-28T23:21Z). Discovered rules are never scored on the held-out set; their checks are spot checks on fresh hits.
+5e4dca8e562e0cc88904408ba03840cf96c277fd31c433c1d27b66ad49faaa6e  rules/rules_discovered.json (current)

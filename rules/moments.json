@@ -1,0 +1,256 @@
+[
+ {
+  "key": "tpmo_disclaimer",
+  "name": "TPMO disclaimer",
+  "short": "Disclaimer",
+  "group": "Compliance",
+  "side": "agent",
+  "definition": "The agent gives the third-party marketer disclaimer: in substance, \"we do not offer every plan available in your area.\"",
+  "action": "Real time: prompt the agent to read it before the first benefit comes up (today's rule; it was the first minute when these calls were made). After the call: send calls without it to QA.",
+  "notes": {
+   "v1": "One phrase: \"every plan\".",
+   "v2": "Negated variants (\"don't offer every plan\", \"not able to offer every plan\") and the State Health Insurance Program.",
+   "v3": "Adds \"not contracted with every carrier\". Keeps the Medicare.gov and 1-800-MEDICARE wording, though no call in this set used it.",
+   "v4": "Same as v3."
+  }
+ },
+ {
+  "key": "recording_notice",
+  "name": "Recording notice",
+  "short": "Recording",
+  "group": "Compliance",
+  "side": "agent",
+  "definition": "The agent, or a recorded message, says the call is recorded or monitored.",
+  "action": "After the call: flag calls with no recording notice in the first minute, since several states require consent from everyone on the call.",
+  "notes": {
+   "v1": "One word: \"recorded\".",
+   "v2": "\"This call is recorded or monitored\", \"for quality and training\", \"recorded line\".",
+   "v3": "Simpler: any \"recorded\", \"monitored\", or \"for quality and training\".",
+   "v4": "Same as v3."
+  }
+ },
+ {
+  "key": "medicare_affiliation_claim",
+  "name": "Medicare affiliation claim",
+  "short": "\"Medicare is updating you\"",
+  "group": "Compliance",
+  "side": "agent",
+  "definition": "The agent says or clearly implies they are calling from or for Medicare or the government, or that Medicare itself is updating the customer's benefits.",
+  "action": "Same-day QA alert, then coach the agent on approved openers. Implying a call comes from Medicare is a misleading-marketing risk.",
+  "notes": {
+   "v1": "One phrase: \"calling from Medicare\". It caught nothing, because agents rarely say it outright.",
+   "v2": "\"Your Medicare is getting updated or upgraded\", \"calling on behalf of Medicare\", \"Medicare is updating\".",
+   "v3": "Allows words in between (\"your Medicare benefits are getting upgraded\") and excludes \"I'm not from Medicare\".",
+   "v4": "Same as v3."
+  }
+ },
+ {
+  "key": "money_back_claim",
+  "name": "Money-back claim",
+  "short": "Money back",
+  "group": "Compliance",
+  "side": "agent",
+  "definition": "The agent promises money added to the customer's Social Security check, or a giveback or premium reduction paid back to them.",
+  "action": "Compliance check: before the transfer, confirm a Part B giveback plan really exists in the customer's area. Promising money that isn't available is a top complaint driver.",
+  "notes": {
+   "v1": "One phrase: \"social security\". It fires on any mention.",
+   "v2": "\"Money back\", \"give back\", \"on your Social Security check\", \"Part B reduction\".",
+   "v3": "Adds \"cash back\", \"every month in your [account]\", \"deposited\".",
+   "v4": "Same as v3."
+  }
+ },
+ {
+  "key": "do_not_call_request",
+  "name": "Do-not-call request",
+  "short": "Stop calling",
+  "group": "Compliance",
+  "side": "customer",
+  "definition": "The customer asks not to be called again, to be taken off the list, or to stop calling.",
+  "action": "Compliance: stop the pitch, add the number to the internal do-not-call list, and alert if the pitch continues after the request.",
+  "notes": {
+   "v1": "One phrase: \"don't call\".",
+   "v2": "Seven phrasings (\"take me off your list\", \"stop calling\") and six exclusions for the agent's own \"I'll put you on the list\".",
+   "v3": "Tighter exclusions.",
+   "v4": "Same as v3."
+  }
+ },
+ {
+  "key": "not_interested",
+  "name": "Not interested",
+  "short": "Not interested",
+  "group": "Sales",
+  "side": "customer",
+  "definition": "The customer explicitly declines the offer, for example \"I'm not interested\" or \"no, I don't want it\".",
+  "action": "Real time: one approved rebuttal, then a polite close if the customer declines again.",
+  "notes": {
+   "v1": "One phrase: \"not interested\".",
+   "v2": "Six phrasings and eight exclusions (\"if you're not interested\").",
+   "v3": "Trimmed to the phrasings that held up.",
+   "v4": "Adds utterance matching."
+  }
+ },
+ {
+  "key": "already_covered",
+  "name": "Already covered",
+  "short": "Already covered",
+  "group": "Sales",
+  "side": "customer",
+  "definition": "The customer says they already have coverage or a plan they want to keep, such as a supplement, Medicaid, the VA, a union or an employer plan.",
+  "action": "Real time: suggest asking what they like about their plan and comparing benefits, rather than pushing a switch.",
+  "notes": {
+   "v1": "One phrase: \"already have\".",
+   "v2": "\"I have a supplement\", \"I'm happy with my plan\", \"through my union or employer\".",
+   "v3": "Adds a question-and-answer clause: a \"yes\" right after \"do you have Medicaid or a supplement?\" counts.",
+   "v4": "Adds \"I have [carrier]\", \"I have Medicaid, the VA or a supplement\", and utterance matching."
+  }
+ },
+ {
+  "key": "trust_concern",
+  "name": "Trust concern",
+  "short": "Trust concern",
+  "group": "Sales",
+  "side": "customer",
+  "definition": "The customer questions the call's legitimacy or their privacy: suspects a scam, asks how the caller got their number, or refuses to give information over the phone.",
+  "action": "Real time: suggest the agent offer verification (company name, license number, a callback number) before asking for anything personal.",
+  "notes": {
+   "v1": "One word: \"scam\".",
+   "v2": "Scam or fraud, \"how did you get my number\", refusing to give information on the phone.",
+   "v3": "More scam words and privacy refusals.",
+   "v4": "Adds \"giving information over the phone\", \"why do I need the card\", and utterance matching."
+  }
+ },
+ {
+  "key": "transfer_to_agent",
+  "name": "Transfer to licensed agent",
+  "short": "Transfer",
+  "group": "Sales",
+  "side": "agent",
+  "definition": "The agent transfers the call, or clearly sets up a live transfer, to a licensed agent, specialist or enrollment team, and the customer goes along with it.",
+  "action": "Outcome metric: this is the conversion event for these calls. Track it by script, time of day and lead source.",
+  "notes": {
+   "v1": "One word: \"transfer\".",
+   "v2": "\"Transfer or connect you to\", \"stay on the line\", only after the first 20 seconds.",
+   "v3": "Adds \"get you connected\" phrasings.",
+   "v4": "Same as v3."
+  }
+ },
+ {
+  "key": "medicare_number_request",
+  "name": "Medicare number request",
+  "short": "Asks for Medicare #",
+  "group": "Sales",
+  "side": "agent",
+  "definition": "The agent asks the customer for their Medicare card number, Medicare ID or MBI.",
+  "action": "Compliance: watch for numbers collected before a licensed agent is on the line, especially right after a trust concern.",
+  "notes": {
+   "v1": "One phrase: \"medicare number\".",
+   "v2": "MBI or ID, \"the number on your card\", \"read me the number\", the red, white and blue card.",
+   "v3": "Excludes \"I'm not asking\" and \"I don't want to give\".",
+   "v4": "Drops the card check, which is now its own moment, and excludes the licensed agent asking later and Social Security numbers."
+  }
+ },
+ {
+  "key": "comprehension_friction",
+  "name": "Can't hear or understand",
+  "short": "Can't hear",
+  "group": "Discovered",
+  "side": "either",
+  "discovered": true,
+  "definition": "Someone says they can't hear or understand the other person, or asks for something to be repeated.",
+  "action": "Coaching: high rates point to line quality or pace. Suggest the agent slow down and confirm.",
+  "notes": {
+   "d1": "Drafted from the theme review of 100 development calls."
+  }
+ },
+ {
+  "key": "card_not_handy",
+  "name": "Card not handy",
+  "short": "Card not handy",
+  "group": "Discovered",
+  "side": "customer",
+  "discovered": true,
+  "definition": "The customer says their Medicare card isn't with them, or that they have to go find it.",
+  "action": "Real time: offer to hold or book a callback instead of losing the transfer.",
+  "notes": {
+   "d1": "Drafted from the theme review of 100 development calls."
+  }
+ },
+ {
+  "key": "unsure_of_coverage",
+  "name": "Unsure of own coverage",
+  "short": "Unsure of plan",
+  "group": "Discovered",
+  "side": "customer",
+  "discovered": true,
+  "definition": "The customer says they don't know what plan or coverage they have, or that a family member handles it.",
+  "action": "Real time: suggest reading the card together, or inviting the family member who manages it.",
+  "notes": {
+   "d1": "Drafted from the theme review of 100 development calls."
+  }
+ },
+ {
+  "key": "asks_call_purpose",
+  "name": "Asks what the call is about",
+  "short": "\"What's this about?\"",
+  "group": "Discovered",
+  "side": "customer",
+  "discovered": true,
+  "definition": "The customer asks what the call is about or why they are being called.",
+  "action": "Script: the opener isn't stating its purpose clearly. Test a clearer first line.",
+  "notes": {
+   "d1": "Drafted from the theme review of 100 development calls."
+  }
+ },
+ {
+  "key": "bad_time_callback",
+  "name": "Bad time, call back",
+  "short": "Bad time",
+  "group": "Discovered",
+  "side": "customer",
+  "discovered": true,
+  "definition": "The customer says it's a bad time (busy, driving, at work) or asks to be called back later.",
+  "action": "Real time: offer a specific callback time and log it.",
+  "notes": {
+   "d1": "Drafted from the theme review of 100 development calls."
+  }
+ },
+ {
+  "key": "call_fatigue",
+  "name": "Too many calls",
+  "short": "Too many calls",
+  "group": "Discovered",
+  "side": "customer",
+  "discovered": true,
+  "definition": "The customer complains about getting too many of these calls.",
+  "action": "Insight: a sign the list is saturated. Feed it into lead-source scoring and call-frequency caps.",
+  "notes": {
+   "d1": "Drafted from the theme review of 100 development calls."
+  }
+ },
+ {
+  "key": "no_more_calls_promise",
+  "name": "\"No one will call you again\"",
+  "short": "No-more-calls promise",
+  "group": "Discovered",
+  "side": "agent",
+  "discovered": true,
+  "definition": "The agent promises the customer will stop getting these calls, often as a reason to finish the call.",
+  "action": "Compliance: an agent can't promise calls will stop. Send to QA, especially after a do-not-call request.",
+  "notes": {
+   "d1": "Found while reading do-not-call calls: agents answered genuine requests with \"complete this call and no one will call you\"."
+  }
+ },
+ {
+  "key": "card_ready_check",
+  "name": "Card-ready check",
+  "short": "Card check",
+  "group": "Discovered",
+  "side": "agent",
+  "discovered": true,
+  "definition": "The agent checks whether the customer has their Medicare card with them, usually just before a transfer.",
+  "action": "Funnel step: measure drop-off between this check and the transfer.",
+  "notes": {
+   "d1": "Split out of the Medicare-number rule after its false alarms turned out to be this step."
+  }
+ }
+]

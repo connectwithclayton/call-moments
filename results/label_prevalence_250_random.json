@@ -1,0 +1,92 @@
+{
+ "tpmo_disclaimer": {
+  "calls": 3,
+  "n": 250,
+  "pct": 1.2,
+  "ci": [
+   0.4,
+   3.5
+  ]
+ },
+ "recording_notice": {
+  "calls": 75,
+  "n": 250,
+  "pct": 30.0,
+  "ci": [
+   24.7,
+   35.9
+  ]
+ },
+ "medicare_affiliation_claim": {
+  "calls": 214,
+  "n": 250,
+  "pct": 85.6,
+  "ci": [
+   80.7,
+   89.4
+  ]
+ },
+ "money_back_claim": {
+  "calls": 95,
+  "n": 250,
+  "pct": 38.0,
+  "ci": [
+   32.2,
+   44.2
+  ]
+ },
+ "do_not_call_request": {
+  "calls": 0,
+  "n": 250,
+  "pct": 0.0,
+  "ci": [
+   0,
+   1.5
+  ]
+ },
+ "not_interested": {
+  "calls": 4,
+  "n": 250,
+  "pct": 1.6,
+  "ci": [
+   0.6,
+   4.0
+  ]
+ },
+ "already_covered": {
+  "calls": 59,
+  "n": 250,
+  "pct": 23.6,
+  "ci": [
+   18.8,
+   29.2
+  ]
+ },
+ "trust_concern": {
+  "calls": 34,
+  "n": 250,
+  "pct": 13.6,
+  "ci": [
+   9.9,
+   18.4
+  ]
+ },
+ "transfer_to_agent": {
+  "calls": 227,
+  "n": 250,
+  "pct": 90.8,
+  "ci": [
+   86.6,
+   93.8
+  ]
+ },
+ "medicare_number_request": {
+  "calls": 48,
+  "n": 250,
+  "pct": 19.2,
+  "ci": [
+   14.8,
+   24.5
+  ]
+ }
+}

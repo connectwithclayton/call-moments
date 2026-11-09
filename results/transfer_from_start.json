@@ -1,0 +1,1800 @@
+{
+ "late_start_rule": "a hold, connection or 'you've reached' phrase in the first 30 seconds: thank(s| you)( so much)? for (holding|waiting|your patience|calling|your interest)|your call is (very )?important|transferred to the next available|you('ve| have) reached|getting connected|on the line with (you|me)|being on hold",
+ "late_start_note": "An independent read found the flag right in nearly 9 of 10 flagged recordings; its main false alarm is 'thank you for your interest', which some first agents also open with.",
+ "connection_line_rule": "(getting|get) (your |the |this )?(call )?connected|connect(ing)? (your|the|this) call|transfer(ring)? (your|the|this) call|call is getting connected|line is getting connected",
+ "n_calls": 4005,
+ "late_start": {
+  "calls": 255,
+  "transferred": 64,
+  "pct": 25.1,
+  "ci": [
+   20.2,
+   30.8
+  ]
+ },
+ "recorded_from_start": {
+  "calls": 3750,
+  "transferred": 3558,
+  "pct": 94.9,
+  "ci": [
+   94.1,
+   95.5
+  ]
+ },
+ "recorded_from_start_handoff": {
+  "calls": 3750,
+  "transferred": 3653,
+  "pct": 97.4,
+  "ci": [
+   96.9,
+   97.9
+  ]
+ },
+ "non_transfers": 383,
+ "non_transfers_late_start": 191,
+ "non_transfers_from_start": 192,
+ "non_transfers_from_start_with_connection_line": 95,
+ "seconds_recorded_after_transfer": {
+  "p25": 100,
+  "median": 151,
+  "p75": 251,
+  "p95": 442
+ },
+ "enrollment": {
+  "finished_enrollments_found": 0,
+  "calls_ending_with_an_inbound_application_callback": 5,
+  "note": "No recording captures a finished enrollment. A few end with the licensed agent asking the customer to call back on an inbound line to apply."
+ },
+ "after_transfer_cue_share": {
+  "medicare_affiliation_claim": {
+   "calls": 3359,
+   "first_said_after_cue": 9
+  },
+  "money_back_claim": {
+   "calls": 1480,
+   "first_said_after_cue": 228
+  },
+  "asks_call_purpose": {
+   "calls": 149,
+   "first_said_after_cue": 23
+  },
+  "medicare_number_request": {
+   "calls": 823,
+   "first_said_after_cue": 542
+  },
+  "card_ready_check": {
+   "calls": 1268,
+   "first_said_after_cue": 521
+  },
+  "card_not_handy": {
+   "calls": 366,
+   "first_said_after_cue": 160
+  },
+  "no_more_calls_promise": {
+   "calls": 198,
+   "first_said_after_cue": 132
+  },
+  "already_covered": {
+   "calls": 559,
+   "first_said_after_cue": 239
+  },
+  "trust_concern": {
+   "calls": 185,
+   "first_said_after_cue": 98
+  },
+  "not_interested": {
+   "calls": 36,
+   "first_said_after_cue": 21
+  },
+  "comprehension_friction": {
+   "calls": 852,
+   "first_said_after_cue": 260
+  },
+  "bad_time_callback": {
+   "calls": 78,
+   "first_said_after_cue": 37
+  },
+  "call_fatigue": {
+   "calls": 57,
+   "first_said_after_cue": 27
+  },
+  "unsure_of_coverage": {
+   "calls": 61,
+   "first_said_after_cue": 24
+  }
+ },
+ "moments_before_handoff": {
+  "medicare_affiliation_claim": {
+   "with": {
+    "calls": 3348,
+    "transferred": 3277,
+    "pct": 97.9,
+    "ci": [
+     97.3,
+     98.3
+    ]
+   },
+   "without": {
+    "calls": 402,
+    "transferred": 376,
+    "pct": 93.5,
+    "ci": [
+     90.7,
+     95.5
+    ]
+   }
+  },
+  "money_back_claim": {
+   "with": {
+    "calls": 1247,
+    "transferred": 1227,
+    "pct": 98.4,
+    "ci": [
+     97.5,
+     99.0
+    ]
+   },
+   "without": {
+    "calls": 2503,
+    "transferred": 2426,
+    "pct": 96.9,
+    "ci": [
+     96.2,
+     97.5
+    ]
+   }
+  },
+  "asks_call_purpose": {
+   "with": {
+    "calls": 123,
+    "transferred": 122,
+    "pct": 99.2,
+    "ci": [
+     95.5,
+     99.9
+    ]
+   },
+   "without": {
+    "calls": 3627,
+    "transferred": 3531,
+    "pct": 97.4,
+    "ci": [
+     96.8,
+     97.8
+    ]
+   }
+  },
+  "medicare_number_request": {
+   "with": {
+    "calls": 260,
+    "transferred": 252,
+    "pct": 96.9,
+    "ci": [
+     94.0,
+     98.4
+    ]
+   },
+   "without": {
+    "calls": 3490,
+    "transferred": 3401,
+    "pct": 97.4,
+    "ci": [
+     96.9,
+     97.9
+    ]
+   }
+  },
+  "card_ready_check": {
+   "with": {
+    "calls": 731,
+    "transferred": 702,
+    "pct": 96.0,
+    "ci": [
+     94.4,
+     97.2
+    ]
+   },
+   "without": {
+    "calls": 3019,
+    "transferred": 2951,
+    "pct": 97.7,
+    "ci": [
+     97.2,
+     98.2
+    ]
+   }
+  },
+  "card_not_handy": {
+   "with": {
+    "calls": 193,
+    "transferred": 182,
+    "pct": 94.3,
+    "ci": [
+     90.1,
+     96.8
+    ]
+   },
+   "without": {
+    "calls": 3557,
+    "transferred": 3471,
+    "pct": 97.6,
+    "ci": [
+     97.0,
+     98.0
+    ]
+   }
+  },
+  "no_more_calls_promise": {
+   "with": {
+    "calls": 65,
+    "transferred": 64,
+    "pct": 98.5,
+    "ci": [
+     91.8,
+     99.7
+    ]
+   },
+   "without": {
+    "calls": 3685,
+    "transferred": 3589,
+    "pct": 97.4,
+    "ci": [
+     96.8,
+     97.9
+    ]
+   }
+  },
+  "already_covered": {
+   "with": {
+    "calls": 315,
+    "transferred": 306,
+    "pct": 97.1,
+    "ci": [
+     94.7,
+     98.5
+    ]
+   },
+   "without": {
+    "calls": 3435,
+    "transferred": 3347,
+    "pct": 97.4,
+    "ci": [
+     96.9,
+     97.9
+    ]
+   }
+  },
+  "trust_concern": {
+   "with": {
+    "calls": 84,
+    "transferred": 81,
+    "pct": 96.4,
+    "ci": [
+     90.0,
+     98.8
+    ]
+   },
+   "without": {
+    "calls": 3666,
+    "transferred": 3572,
+    "pct": 97.4,
+    "ci": [
+     96.9,
+     97.9
+    ]
+   }
+  },
+  "not_interested": {
+   "with": {
+    "calls": 15,
+    "transferred": 14,
+    "pct": 93.3,
+    "ci": [
+     70.2,
+     98.8
+    ]
+   },
+   "without": {
+    "calls": 3735,
+    "transferred": 3639,
+    "pct": 97.4,
+    "ci": [
+     96.9,
+     97.9
+    ]
+   }
+  },
+  "comprehension_friction": {
+   "with": {
+    "calls": 579,
+    "transferred": 552,
+    "pct": 95.3,
+    "ci": [
+     93.3,
+     96.8
+    ]
+   },
+   "without": {
+    "calls": 3171,
+    "transferred": 3101,
+    "pct": 97.8,
+    "ci": [
+     97.2,
+     98.2
+    ]
+   }
+  },
+  "bad_time_callback": {
+   "with": {
+    "calls": 35,
+    "transferred": 28,
+    "pct": 80.0,
+    "ci": [
+     64.1,
+     90.0
+    ]
+   },
+   "without": {
+    "calls": 3715,
+    "transferred": 3625,
+    "pct": 97.6,
+    "ci": [
+     97.0,
+     98.0
+    ]
+   }
+  },
+  "call_fatigue": {
+   "with": {
+    "calls": 26,
+    "transferred": 25,
+    "pct": 96.2,
+    "ci": [
+     81.1,
+     99.3
+    ]
+   },
+   "without": {
+    "calls": 3724,
+    "transferred": 3628,
+    "pct": 97.4,
+    "ci": [
+     96.9,
+     97.9
+    ]
+   }
+  },
+  "unsure_of_coverage": {
+   "with": {
+    "calls": 37,
+    "transferred": 37,
+    "pct": 100.0,
+    "ci": [
+     90.6,
+     100
+    ]
+   },
+   "without": {
+    "calls": 3713,
+    "transferred": 3616,
+    "pct": 97.4,
+    "ci": [
+     96.8,
+     97.9
+    ]
+   }
+  }
+ },
+ "equal_time": {
+  "90": {
+   "risk_set": {
+    "calls": 3446,
+    "transferred": 3352,
+    "pct": 97.3,
+    "ci": [
+     96.7,
+     97.8
+    ]
+   },
+   "medicare_affiliation_claim": {
+    "with": {
+     "calls": 3190,
+     "transferred": 3120,
+     "pct": 97.8,
+     "ci": [
+      97.2,
+      98.3
+     ]
+    },
+    "without": {
+     "calls": 256,
+     "transferred": 232,
+     "pct": 90.6,
+     "ci": [
+      86.4,
+      93.6
+     ]
+    }
+   },
+   "money_back_claim": {
+    "with": {
+     "calls": 974,
+     "transferred": 964,
+     "pct": 99.0,
+     "ci": [
+      98.1,
+      99.4
+     ]
+    },
+    "without": {
+     "calls": 2472,
+     "transferred": 2388,
+     "pct": 96.6,
+     "ci": [
+      95.8,
+      97.2
+     ]
+    }
+   },
+   "asks_call_purpose": {
+    "with": {
+     "calls": 101,
+     "transferred": 100,
+     "pct": 99.0,
+     "ci": [
+      94.6,
+      99.8
+     ]
+    },
+    "without": {
+     "calls": 3345,
+     "transferred": 3252,
+     "pct": 97.2,
+     "ci": [
+      96.6,
+      97.7
+     ]
+    }
+   },
+   "medicare_number_request": {
+    "with": {
+     "calls": 15,
+     "transferred": 11,
+     "pct": 73.3,
+     "ci": [
+      48.0,
+      89.1
+     ]
+    },
+    "without": {
+     "calls": 3431,
+     "transferred": 3341,
+     "pct": 97.4,
+     "ci": [
+      96.8,
+      97.9
+     ]
+    }
+   },
+   "card_ready_check": {
+    "with": {
+     "calls": 61,
+     "transferred": 59,
+     "pct": 96.7,
+     "ci": [
+      88.8,
+      99.1
+     ]
+    },
+    "without": {
+     "calls": 3385,
+     "transferred": 3293,
+     "pct": 97.3,
+     "ci": [
+      96.7,
+      97.8
+     ]
+    }
+   },
+   "card_not_handy": {
+    "with": {
+     "calls": 22,
+     "transferred": 22,
+     "pct": 100.0,
+     "ci": [
+      85.1,
+      100
+     ]
+    },
+    "without": {
+     "calls": 3424,
+     "transferred": 3330,
+     "pct": 97.3,
+     "ci": [
+      96.7,
+      97.8
+     ]
+    }
+   },
+   "no_more_calls_promise": {
+    "with": {
+     "calls": 22,
+     "transferred": 21,
+     "pct": 95.5,
+     "ci": [
+      78.2,
+      99.2
+     ]
+    },
+    "without": {
+     "calls": 3424,
+     "transferred": 3331,
+     "pct": 97.3,
+     "ci": [
+      96.7,
+      97.8
+     ]
+    }
+   },
+   "already_covered": {
+    "with": {
+     "calls": 93,
+     "transferred": 89,
+     "pct": 95.7,
+     "ci": [
+      89.5,
+      98.3
+     ]
+    },
+    "without": {
+     "calls": 3353,
+     "transferred": 3263,
+     "pct": 97.3,
+     "ci": [
+      96.7,
+      97.8
+     ]
+    }
+   },
+   "trust_concern": {
+    "with": {
+     "calls": 9,
+     "transferred": 9,
+     "pct": 100.0,
+     "ci": [
+      70.1,
+      100
+     ]
+    },
+    "without": {
+     "calls": 3437,
+     "transferred": 3343,
+     "pct": 97.3,
+     "ci": [
+      96.7,
+      97.8
+     ]
+    }
+   },
+   "not_interested": {
+    "with": {
+     "calls": 6,
+     "transferred": 6,
+     "pct": 100.0,
+     "ci": [
+      61.0,
+      100.0
+     ]
+    },
+    "without": {
+     "calls": 3440,
+     "transferred": 3346,
+     "pct": 97.3,
+     "ci": [
+      96.7,
+      97.8
+     ]
+    }
+   },
+   "comprehension_friction": {
+    "with": {
+     "calls": 296,
+     "transferred": 286,
+     "pct": 96.6,
+     "ci": [
+      93.9,
+      98.2
+     ]
+    },
+    "without": {
+     "calls": 3150,
+     "transferred": 3066,
+     "pct": 97.3,
+     "ci": [
+      96.7,
+      97.8
+     ]
+    }
+   },
+   "bad_time_callback": {
+    "with": {
+     "calls": 10,
+     "transferred": 10,
+     "pct": 100.0,
+     "ci": [
+      72.2,
+      100
+     ]
+    },
+    "without": {
+     "calls": 3436,
+     "transferred": 3342,
+     "pct": 97.3,
+     "ci": [
+      96.7,
+      97.8
+     ]
+    }
+   },
+   "call_fatigue": {
+    "with": {
+     "calls": 11,
+     "transferred": 11,
+     "pct": 100.0,
+     "ci": [
+      74.1,
+      100
+     ]
+    },
+    "without": {
+     "calls": 3435,
+     "transferred": 3341,
+     "pct": 97.3,
+     "ci": [
+      96.7,
+      97.8
+     ]
+    }
+   },
+   "unsure_of_coverage": {
+    "with": {
+     "calls": 14,
+     "transferred": 14,
+     "pct": 100.0,
+     "ci": [
+      78.5,
+      100
+     ]
+    },
+    "without": {
+     "calls": 3432,
+     "transferred": 3338,
+     "pct": 97.3,
+     "ci": [
+      96.7,
+      97.8
+     ]
+    }
+   }
+  },
+  "150": {
+   "risk_set": {
+    "calls": 2430,
+    "transferred": 2347,
+    "pct": 96.6,
+    "ci": [
+     95.8,
+     97.2
+    ]
+   },
+   "medicare_affiliation_claim": {
+    "with": {
+     "calls": 2261,
+     "transferred": 2201,
+     "pct": 97.3,
+     "ci": [
+      96.6,
+      97.9
+     ]
+    },
+    "without": {
+     "calls": 169,
+     "transferred": 146,
+     "pct": 86.4,
+     "ci": [
+      80.4,
+      90.8
+     ]
+    }
+   },
+   "money_back_claim": {
+    "with": {
+     "calls": 717,
+     "transferred": 705,
+     "pct": 98.3,
+     "ci": [
+      97.1,
+      99.0
+     ]
+    },
+    "without": {
+     "calls": 1713,
+     "transferred": 1642,
+     "pct": 95.9,
+     "ci": [
+      94.8,
+      96.7
+     ]
+    }
+   },
+   "asks_call_purpose": {
+    "with": {
+     "calls": 73,
+     "transferred": 72,
+     "pct": 98.6,
+     "ci": [
+      92.6,
+      99.8
+     ]
+    },
+    "without": {
+     "calls": 2357,
+     "transferred": 2275,
+     "pct": 96.5,
+     "ci": [
+      95.7,
+      97.2
+     ]
+    }
+   },
+   "medicare_number_request": {
+    "with": {
+     "calls": 61,
+     "transferred": 57,
+     "pct": 93.4,
+     "ci": [
+      84.3,
+      97.4
+     ]
+    },
+    "without": {
+     "calls": 2369,
+     "transferred": 2290,
+     "pct": 96.7,
+     "ci": [
+      95.9,
+      97.3
+     ]
+    }
+   },
+   "card_ready_check": {
+    "with": {
+     "calls": 226,
+     "transferred": 213,
+     "pct": 94.2,
+     "ci": [
+      90.4,
+      96.6
+     ]
+    },
+    "without": {
+     "calls": 2204,
+     "transferred": 2134,
+     "pct": 96.8,
+     "ci": [
+      96.0,
+      97.5
+     ]
+    }
+   },
+   "card_not_handy": {
+    "with": {
+     "calls": 60,
+     "transferred": 58,
+     "pct": 96.7,
+     "ci": [
+      88.6,
+      99.1
+     ]
+    },
+    "without": {
+     "calls": 2370,
+     "transferred": 2289,
+     "pct": 96.6,
+     "ci": [
+      95.8,
+      97.2
+     ]
+    }
+   },
+   "no_more_calls_promise": {
+    "with": {
+     "calls": 32,
+     "transferred": 31,
+     "pct": 96.9,
+     "ci": [
+      84.3,
+      99.4
+     ]
+    },
+    "without": {
+     "calls": 2398,
+     "transferred": 2316,
+     "pct": 96.6,
+     "ci": [
+      95.8,
+      97.2
+     ]
+    }
+   },
+   "already_covered": {
+    "with": {
+     "calls": 177,
+     "transferred": 173,
+     "pct": 97.7,
+     "ci": [
+      94.3,
+      99.1
+     ]
+    },
+    "without": {
+     "calls": 2253,
+     "transferred": 2174,
+     "pct": 96.5,
+     "ci": [
+      95.7,
+      97.2
+     ]
+    }
+   },
+   "trust_concern": {
+    "with": {
+     "calls": 22,
+     "transferred": 21,
+     "pct": 95.5,
+     "ci": [
+      78.2,
+      99.2
+     ]
+    },
+    "without": {
+     "calls": 2408,
+     "transferred": 2326,
+     "pct": 96.6,
+     "ci": [
+      95.8,
+      97.2
+     ]
+    }
+   },
+   "not_interested": {
+    "with": {
+     "calls": 9,
+     "transferred": 8,
+     "pct": 88.9,
+     "ci": [
+      56.5,
+      98.0
+     ]
+    },
+    "without": {
+     "calls": 2421,
+     "transferred": 2339,
+     "pct": 96.6,
+     "ci": [
+      95.8,
+      97.3
+     ]
+    }
+   },
+   "comprehension_friction": {
+    "with": {
+     "calls": 372,
+     "transferred": 355,
+     "pct": 95.4,
+     "ci": [
+      92.8,
+      97.1
+     ]
+    },
+    "without": {
+     "calls": 2058,
+     "transferred": 1992,
+     "pct": 96.8,
+     "ci": [
+      95.9,
+      97.5
+     ]
+    }
+   },
+   "bad_time_callback": {
+    "with": {
+     "calls": 13,
+     "transferred": 13,
+     "pct": 100.0,
+     "ci": [
+      77.2,
+      100
+     ]
+    },
+    "without": {
+     "calls": 2417,
+     "transferred": 2334,
+     "pct": 96.6,
+     "ci": [
+      95.8,
+      97.2
+     ]
+    }
+   },
+   "call_fatigue": {
+    "with": {
+     "calls": 15,
+     "transferred": 15,
+     "pct": 100.0,
+     "ci": [
+      79.6,
+      100
+     ]
+    },
+    "without": {
+     "calls": 2415,
+     "transferred": 2332,
+     "pct": 96.6,
+     "ci": [
+      95.8,
+      97.2
+     ]
+    }
+   },
+   "unsure_of_coverage": {
+    "with": {
+     "calls": 20,
+     "transferred": 20,
+     "pct": 100.0,
+     "ci": [
+      83.9,
+      100
+     ]
+    },
+    "without": {
+     "calls": 2410,
+     "transferred": 2327,
+     "pct": 96.6,
+     "ci": [
+      95.8,
+      97.2
+     ]
+    }
+   }
+  },
+  "210": {
+   "risk_set": {
+    "calls": 1315,
+    "transferred": 1248,
+    "pct": 94.9,
+    "ci": [
+     93.6,
+     96.0
+    ]
+   },
+   "medicare_affiliation_claim": {
+    "with": {
+     "calls": 1211,
+     "transferred": 1165,
+     "pct": 96.2,
+     "ci": [
+      95.0,
+      97.1
+     ]
+    },
+    "without": {
+     "calls": 104,
+     "transferred": 83,
+     "pct": 79.8,
+     "ci": [
+      71.1,
+      86.4
+     ]
+    }
+   },
+   "money_back_claim": {
+    "with": {
+     "calls": 378,
+     "transferred": 367,
+     "pct": 97.1,
+     "ci": [
+      94.9,
+      98.4
+     ]
+    },
+    "without": {
+     "calls": 937,
+     "transferred": 881,
+     "pct": 94.0,
+     "ci": [
+      92.3,
+      95.4
+     ]
+    }
+   },
+   "asks_call_purpose": {
+    "with": {
+     "calls": 47,
+     "transferred": 46,
+     "pct": 97.9,
+     "ci": [
+      88.9,
+      99.6
+     ]
+    },
+    "without": {
+     "calls": 1268,
+     "transferred": 1202,
+     "pct": 94.8,
+     "ci": [
+      93.4,
+      95.9
+     ]
+    }
+   },
+   "medicare_number_request": {
+    "with": {
+     "calls": 70,
+     "transferred": 66,
+     "pct": 94.3,
+     "ci": [
+      86.2,
+      97.8
+     ]
+    },
+    "without": {
+     "calls": 1245,
+     "transferred": 1182,
+     "pct": 94.9,
+     "ci": [
+      93.6,
+      96.0
+     ]
+    }
+   },
+   "card_ready_check": {
+    "with": {
+     "calls": 247,
+     "transferred": 231,
+     "pct": 93.5,
+     "ci": [
+      89.7,
+      96.0
+     ]
+    },
+    "without": {
+     "calls": 1068,
+     "transferred": 1017,
+     "pct": 95.2,
+     "ci": [
+      93.8,
+      96.3
+     ]
+    }
+   },
+   "card_not_handy": {
+    "with": {
+     "calls": 70,
+     "transferred": 63,
+     "pct": 90.0,
+     "ci": [
+      80.8,
+      95.1
+     ]
+    },
+    "without": {
+     "calls": 1245,
+     "transferred": 1185,
+     "pct": 95.2,
+     "ci": [
+      93.8,
+      96.2
+     ]
+    }
+   },
+   "no_more_calls_promise": {
+    "with": {
+     "calls": 19,
+     "transferred": 18,
+     "pct": 94.7,
+     "ci": [
+      75.4,
+      99.1
+     ]
+    },
+    "without": {
+     "calls": 1296,
+     "transferred": 1230,
+     "pct": 94.9,
+     "ci": [
+      93.6,
+      96.0
+     ]
+    }
+   },
+   "already_covered": {
+    "with": {
+     "calls": 147,
+     "transferred": 141,
+     "pct": 95.9,
+     "ci": [
+      91.4,
+      98.1
+     ]
+    },
+    "without": {
+     "calls": 1168,
+     "transferred": 1107,
+     "pct": 94.8,
+     "ci": [
+      93.3,
+      95.9
+     ]
+    }
+   },
+   "trust_concern": {
+    "with": {
+     "calls": 17,
+     "transferred": 16,
+     "pct": 94.1,
+     "ci": [
+      73.0,
+      99.0
+     ]
+    },
+    "without": {
+     "calls": 1298,
+     "transferred": 1232,
+     "pct": 94.9,
+     "ci": [
+      93.6,
+      96.0
+     ]
+    }
+   },
+   "not_interested": {
+    "with": {
+     "calls": 9,
+     "transferred": 8,
+     "pct": 88.9,
+     "ci": [
+      56.5,
+      98.0
+     ]
+    },
+    "without": {
+     "calls": 1306,
+     "transferred": 1240,
+     "pct": 94.9,
+     "ci": [
+      93.6,
+      96.0
+     ]
+    }
+   },
+   "comprehension_friction": {
+    "with": {
+     "calls": 285,
+     "transferred": 270,
+     "pct": 94.7,
+     "ci": [
+      91.5,
+      96.8
+     ]
+    },
+    "without": {
+     "calls": 1030,
+     "transferred": 978,
+     "pct": 95.0,
+     "ci": [
+      93.4,
+      96.1
+     ]
+    }
+   },
+   "bad_time_callback": {
+    "with": {
+     "calls": 11,
+     "transferred": 9,
+     "pct": 81.8,
+     "ci": [
+      52.3,
+      94.9
+     ]
+    },
+    "without": {
+     "calls": 1304,
+     "transferred": 1239,
+     "pct": 95.0,
+     "ci": [
+      93.7,
+      96.1
+     ]
+    }
+   },
+   "call_fatigue": {
+    "with": {
+     "calls": 9,
+     "transferred": 9,
+     "pct": 100.0,
+     "ci": [
+      70.1,
+      100
+     ]
+    },
+    "without": {
+     "calls": 1306,
+     "transferred": 1239,
+     "pct": 94.9,
+     "ci": [
+      93.5,
+      95.9
+     ]
+    }
+   },
+   "unsure_of_coverage": {
+    "with": {
+     "calls": 14,
+     "transferred": 14,
+     "pct": 100.0,
+     "ci": [
+      78.5,
+      100
+     ]
+    },
+    "without": {
+     "calls": 1301,
+     "transferred": 1234,
+     "pct": 94.9,
+     "ci": [
+      93.5,
+      95.9
+     ]
+    }
+   }
+  }
+ },
+ "number_ask": {
+  "length_quartile_cuts_s": [
+   266.0,
+   352.0,
+   471.0
+  ],
+  "all_recordings": {
+   "ask": {
+    "calls": 960,
+    "transferred": 814,
+    "pct": 84.8,
+    "ci": [
+     82.4,
+     86.9
+    ]
+   },
+   "no_ask": {
+    "calls": 3045,
+    "transferred": 2808,
+    "pct": 92.2,
+    "ci": [
+     91.2,
+     93.1
+    ]
+   },
+   "by_length": [
+    {
+     "ask": {
+      "calls": 116,
+      "transferred": 81,
+      "pct": 69.8,
+      "ci": [
+       60.9,
+       77.4
+      ]
+     },
+     "no_ask": {
+      "calls": 893,
+      "transferred": 790,
+      "pct": 88.5,
+      "ci": [
+       86.2,
+       90.4
+      ]
+     }
+    },
+    {
+     "ask": {
+      "calls": 155,
+      "transferred": 116,
+      "pct": 74.8,
+      "ci": [
+       67.5,
+       81.0
+      ]
+     },
+     "no_ask": {
+      "calls": 845,
+      "transferred": 787,
+      "pct": 93.1,
+      "ci": [
+       91.2,
+       94.7
+      ]
+     }
+    },
+    {
+     "ask": {
+      "calls": 256,
+      "transferred": 228,
+      "pct": 89.1,
+      "ci": [
+       84.6,
+       92.3
+      ]
+     },
+     "no_ask": {
+      "calls": 742,
+      "transferred": 701,
+      "pct": 94.5,
+      "ci": [
+       92.6,
+       95.9
+      ]
+     }
+    },
+    {
+     "ask": {
+      "calls": 433,
+      "transferred": 389,
+      "pct": 89.8,
+      "ci": [
+       86.6,
+       92.3
+      ]
+     },
+     "no_ask": {
+      "calls": 565,
+      "transferred": 530,
+      "pct": 93.8,
+      "ci": [
+       91.5,
+       95.5
+      ]
+     }
+    }
+   ]
+  },
+  "recorded_from_start": {
+   "ask": {
+    "calls": 823,
+    "transferred": 797,
+    "pct": 96.8,
+    "ci": [
+     95.4,
+     97.8
+    ]
+   },
+   "no_ask": {
+    "calls": 2927,
+    "transferred": 2761,
+    "pct": 94.3,
+    "ci": [
+     93.4,
+     95.1
+    ]
+   },
+   "by_length": [
+    {
+     "ask": {
+      "calls": 83,
+      "transferred": 78,
+      "pct": 94.0,
+      "ci": [
+       86.7,
+       97.4
+      ]
+     },
+     "no_ask": {
+      "calls": 843,
+      "transferred": 773,
+      "pct": 91.7,
+      "ci": [
+       89.6,
+       93.4
+      ]
+     }
+    },
+    {
+     "ask": {
+      "calls": 120,
+      "transferred": 115,
+      "pct": 95.8,
+      "ci": [
+       90.6,
+       98.2
+      ]
+     },
+     "no_ask": {
+      "calls": 827,
+      "transferred": 783,
+      "pct": 94.7,
+      "ci": [
+       92.9,
+       96.0
+      ]
+     }
+    },
+    {
+     "ask": {
+      "calls": 235,
+      "transferred": 228,
+      "pct": 97.0,
+      "ci": [
+       94.0,
+       98.5
+      ]
+     },
+     "no_ask": {
+      "calls": 720,
+      "transferred": 692,
+      "pct": 96.1,
+      "ci": [
+       94.4,
+       97.3
+      ]
+     }
+    },
+    {
+     "ask": {
+      "calls": 385,
+      "transferred": 376,
+      "pct": 97.7,
+      "ci": [
+       95.6,
+       98.8
+      ]
+     },
+     "no_ask": {
+      "calls": 537,
+      "transferred": 513,
+      "pct": 95.5,
+      "ci": [
+       93.4,
+       97.0
+      ]
+     }
+    }
+   ]
+  },
+  "before_handoff": {
+   "with": {
+    "calls": 260,
+    "transferred": 252,
+    "pct": 96.9,
+    "ci": [
+     94.0,
+     98.4
+    ]
+   },
+   "without": {
+    "calls": 3490,
+    "transferred": 3401,
+    "pct": 97.4,
+    "ci": [
+     96.9,
+     97.9
+    ]
+   }
+  }
+ },
+ "overlapping_recordings": {
+  "min_shared_15": {
+   "pairs": 240,
+   "recordings": 476,
+   "pct_of_recordings": 11.9,
+   "late_starts_in_a_pair": 196,
+   "pairs_across_tuning_and_heldout": 0
+  },
+  "min_shared_30": {
+   "pairs": 206,
+   "recordings": 409,
+   "pct_of_recordings": 10.2,
+   "late_starts_in_a_pair": 185,
+   "pairs_across_tuning_and_heldout": 0
+  },
+  "min_shared_60": {
+   "pairs": 183,
+   "recordings": 363,
+   "pct_of_recordings": 9.1,
+   "late_starts_in_a_pair": 170,
+   "pairs_across_tuning_and_heldout": 0
+  }
+ },
+ "labels_rule_misses": {
+  "random_from_start": 232,
+  "rule_says_no_transfer": 20,
+  "labeled_transferred": 7
+ },
+ "labels_covered_before_transfer": {
+  "covered_before": {
+   "calls": 33,
+   "transferred": 30,
+   "pct": 90.9,
+   "ci": [
+    76.4,
+    96.9
+   ]
+  },
+  "not_covered": {
+   "calls": 184,
+   "transferred": 170,
+   "pct": 92.4,
+   "ci": [
+    87.6,
+    95.4
+   ]
+  },
+  "covered_after_transfer": 15
+ },
+ "late_start_ids": [
+  "C0013",
+  "C0023",
+  "C0032",
+  "C0043",
+  "C0056",
+  "C0057",
+  "C0081",
+  "C0092",
+  "C0095",
+  "C0099",
+  "C0101",
+  "C0107",
+  "C0123",
+  "C0126",
+  "C0132",
+  "C0148",
+  "C0155",
+  "C0157",
+  "C0188",
+  "C0197",
+  "C0200",
+  "C0223",
+  "C0236",
+  "C0237",
+  "C0250",
+  "C0255",
+  "C0267",
+  "C0293",
+  "C0297",
+  "C0309",
+  "C0314",
+  "C0323",
+  "C0329",
+  "C0346",
+  "C0350",
+  "C0354",
+  "C0358",
+  "C0390",
+  "C0398",
+  "C0399",
+  "C0407",
+  "C0410",
+  "C0440",
+  "C0441",
+  "C0446",
+  "C0482",
+  "C0484",
+  "C0514",
+  "C0517",
+  "C0524",
+  "C0527",
+  "C0536",
+  "C0538",
+  "C0540",
+  "C0543",
+  "C0556",
+  "C0570",
+  "C0578",
+  "C0588",
+  "C0592",
+  "C0593",
+  "C0602",
+  "C0607",
+  "C0617",
+  "C0620",
+  "C0623",
+  "C0665",
+  "C0673",
+  "C0676",
+  "C0690",
+  "C0700",
+  "C0713",
+  "C0722",
+  "C0735",
+  "C0747",
+  "C0771",
+  "C0777",
+  "C0797",
+  "C0810",
+  "C0826",
+  "C0833",
+  "C0857",
+  "C0880",
+  "C0884",
+  "C0896",
+  "C0907",
+  "C0977",
+  "C1057",
+  "C1074",
+  "C1082",
+  "C1125",
+  "C1127",
+  "C1161",
+  "C1180",
+  "C1213",
+  "C1216",
+  "C1223",
+  "C1258",
+  "C1265",
+  "C1272",
+  "C1275",
+  "C1324",
+  "C1334",
+  "C1335",
+  "C1355",
+  "C1383",
+  "C1391",
+  "C1430",
+  "C1547",
+  "C1567",
+  "C1570",
+  "C1614",
+  "C1628",
+  "C1632",
+  "C1642",
+  "C1650",
+  "C1654",
+  "C1659",
+  "C1662",
+  "C1663",
+  "C1743",
+  "C1757",
+  "C1769",
+  "C1806",
+  "C1836",
+  "C1849",
+  "C1857",
+  "C1877",
+  "C1887",
+  "C1888",
+  "C1900",
+  "C1916",
+  "C1931",
+  "C1946",
+  "C1949",
+  "C1957",
+  "C1965",
+  "C1968",
+  "C1980",
+  "C1995",
+  "C2023",
+  "C2029",
+  "C2066",
+  "C2084",
+  "C2090",
+  "C2114",
+  "C2139",
+  "C2166",
+  "C2169",
+  "C2175",
+  "C2187",
+  "C2255",
+  "C2274",
+  "C2278",
+  "C2302",
+  "C2317",
+  "C2330",
+  "C2410",
+  "C2431",
+  "C2436",
+  "C2464",
+  "C2468",
+  "C2470",
+  "C2490",
+  "C2493",
+  "C2503",
+  "C2513",
+  "C2539",
+  "C2546",
+  "C2559",
+  "C2584",
+  "C2597",
+  "C2642",
+  "C2654",
+  "C2670",
+  "C2685",
+  "C2721",
+  "C2734",
+  "C2739",
+  "C2760",
+  "C2772",
+  "C2782",
+  "C2815",
+  "C2826",
+  "C2835",
+  "C2836",
+  "C2850",
+  "C2858",
+  "C2866",
+  "C2893",
+  "C2908",
+  "C2923",
+  "C2933",
+  "C2935",
+  "C2939",
+  "C2951",
+  "C2959",
+  "C2964",
+  "C2979",
+  "C3019",
+  "C3037",
+  "C3049",
+  "C3130",
+  "C3131",
+  "C3134",
+  "C3145",
+  "C3213",
+  "C3228",
+  "C3232",
+  "C3246",
+  "C3269",
+  "C3293",
+  "C3294",
+  "C3303",
+  "C3317",
+  "C3325",
+  "C3408",
+  "C3419",
+  "C3445",
+  "C3480",
+  "C3509",
+  "C3512",
+  "C3520",
+  "C3547",
+  "C3566",
+  "C3569",
+  "C3641",
+  "C3649",
+  "C3668",
+  "C3676",
+  "C3698",
+  "C3720",
+  "C3745",
+  "C3759",
+  "C3762",
+  "C3769",
+  "C3785",
+  "C3792",
+  "C3814",
+  "C3826",
+  "C3834",
+  "C3840",
+  "C3866",
+  "C3876",
+  "C3883",
+  "C3901",
+  "C3927",
+  "C3937",
+  "C3951",
+  "C3974",
+  "C3976",
+  "C3977",
+  "C3984",
+  "C3989",
+  "C4003"
+ ]
+}

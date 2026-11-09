@@ -1,0 +1,7924 @@
+[
+{
+"call_id": "C0006",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 8
+},
+"money_back_claim": {
+"present": true,
+"t": 49
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 117
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0030",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 278
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 13
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 139
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 161
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0050",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 14
+},
+"money_back_claim": {
+"present": true,
+"t": 43
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 150
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0056",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": false
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 226
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 35
+},
+"medicare_number_request": {
+"present": true,
+"t": 47
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0096",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 5
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 160
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "callback_or_followup"
+},
+{
+"call_id": "C0112",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 4
+},
+"money_back_claim": {
+"present": true,
+"t": 161
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 80
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0129",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 12
+},
+"money_back_claim": {
+"present": true,
+"t": 55
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 129
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 111
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0134",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 10
+},
+"money_back_claim": {
+"present": true,
+"t": 109
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": true,
+"t": 26
+},
+"transfer_to_agent": {
+"present": true,
+"t": 147
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0137",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": false
+},
+"money_back_claim": {
+"present": true,
+"t": 109
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 29
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0154",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 219
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 9
+},
+"money_back_claim": {
+"present": true,
+"t": 147
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 181
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0155",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 11
+},
+"medicare_affiliation_claim": {
+"present": false
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 84
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": false
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "declined_or_ended"
+},
+{
+"call_id": "C0178",
+"labels": {
+"tpmo_disclaimer": {
+"present": true,
+"t": 564
+},
+"recording_notice": {
+"present": true,
+"t": 548
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 11
+},
+"money_back_claim": {
+"present": true,
+"t": 138
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 129
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0184",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 15
+},
+"money_back_claim": {
+"present": true,
+"t": 531
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": true,
+"t": 8
+},
+"already_covered": {
+"present": true,
+"t": 10
+},
+"trust_concern": {
+"present": true,
+"t": 52
+},
+"transfer_to_agent": {
+"present": true,
+"t": 299
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0187",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 30
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 130
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0221",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 220
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 9
+},
+"money_back_claim": {
+"present": true,
+"t": 52
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 129
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0232",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 12
+},
+"money_back_claim": {
+"present": true,
+"t": 45
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 178
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0283",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 10
+},
+"money_back_claim": {
+"present": true,
+"t": 55
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 106
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0320",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 479
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 17
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 81
+},
+"trust_concern": {
+"present": true,
+"t": 418
+},
+"transfer_to_agent": {
+"present": true,
+"t": 173
+},
+"medicare_number_request": {
+"present": true,
+"t": 405
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0342",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 12
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 118
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0354",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": false
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": false
+},
+"medicare_number_request": {
+"present": true,
+"t": 46
+}
+},
+"outcome": "declined_or_ended"
+},
+{
+"call_id": "C0409",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 10
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 162
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0450",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 7
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": false
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "declined_or_ended"
+},
+{
+"call_id": "C0476",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 369
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 11
+},
+"money_back_claim": {
+"present": true,
+"t": 45
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 134
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0546",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 9
+},
+"money_back_claim": {
+"present": true,
+"t": 60
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 112
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0553",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 11
+},
+"money_back_claim": {
+"present": true,
+"t": 53
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 127
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0580",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 10
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 107
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0582",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 9
+},
+"money_back_claim": {
+"present": true,
+"t": 252
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 228
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 160
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0592",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 48
+},
+"medicare_affiliation_claim": {
+"present": false
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": true,
+"t": 1117
+},
+"already_covered": {
+"present": true,
+"t": 99
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 192
+},
+"medicare_number_request": {
+"present": true,
+"t": 533
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0618",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 10
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 82
+},
+"trust_concern": {
+"present": true,
+"t": 328
+},
+"transfer_to_agent": {
+"present": true,
+"t": 194
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0621",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 12
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": true,
+"t": 264
+},
+"transfer_to_agent": {
+"present": true,
+"t": 191
+},
+"medicare_number_request": {
+"present": true,
+"t": 847
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0632",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 10
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 133
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0634",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 531
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 43
+},
+"money_back_claim": {
+"present": true,
+"t": 95
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 436
+},
+"medicare_number_request": {
+"present": true,
+"t": 501
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0638",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 230
+},
+"medicare_affiliation_claim": {
+"present": false
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 164
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0639",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 11
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": true,
+"t": 233
+},
+"already_covered": {
+"present": true,
+"t": 31
+},
+"trust_concern": {
+"present": true,
+"t": 200
+},
+"transfer_to_agent": {
+"present": false
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "declined_or_ended"
+},
+{
+"call_id": "C0643",
+"labels": {
+"tpmo_disclaimer": {
+"present": true,
+"t": 358
+},
+"recording_notice": {
+"present": true,
+"t": 328
+},
+"medicare_affiliation_claim": {
+"present": false
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 15
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0667",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 13
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 129
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0704",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 15
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 259
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 289
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0706",
+"labels": {
+"tpmo_disclaimer": {
+"present": true,
+"t": 312
+},
+"recording_notice": {
+"present": true,
+"t": 299
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 11
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 158
+},
+"medicare_number_request": {
+"present": true,
+"t": 92
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0721",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 232
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 10
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 190
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0743",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 13
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 482
+},
+"trust_concern": {
+"present": true,
+"t": 454
+},
+"transfer_to_agent": {
+"present": true,
+"t": 157
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0764",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 10
+},
+"money_back_claim": {
+"present": true,
+"t": 110
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 191
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0779",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 12
+},
+"money_back_claim": {
+"present": true,
+"t": 44
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 119
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0804",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 296
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 10
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": true,
+"t": 332
+},
+"transfer_to_agent": {
+"present": true,
+"t": 241
+},
+"medicare_number_request": {
+"present": true,
+"t": 440
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0836",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 11
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 203
+},
+"medicare_number_request": {
+"present": true,
+"t": 404
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0839",
+"labels": {
+"tpmo_disclaimer": {
+"present": true,
+"t": 252
+},
+"recording_notice": {
+"present": true,
+"t": 231
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 64
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 51
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0861",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 10
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 217
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0869",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 14
+},
+"money_back_claim": {
+"present": true,
+"t": 228
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": true,
+"t": 222
+},
+"transfer_to_agent": {
+"present": true,
+"t": 148
+},
+"medicare_number_request": {
+"present": true,
+"t": 225
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0872",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 10
+},
+"money_back_claim": {
+"present": true,
+"t": 67
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 43
+},
+"trust_concern": {
+"present": true,
+"t": 241
+},
+"transfer_to_agent": {
+"present": true,
+"t": 202
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0880",
+"labels": {
+"tpmo_disclaimer": {
+"present": true,
+"t": 162
+},
+"recording_notice": {
+"present": true,
+"t": 181
+},
+"medicare_affiliation_claim": {
+"present": false
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 37
+},
+"trust_concern": {
+"present": true,
+"t": 295
+},
+"transfer_to_agent": {
+"present": true,
+"t": 12
+},
+"medicare_number_request": {
+"present": true,
+"t": 284
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0887",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 107
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 11
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 180
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0905",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 346
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 7
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 211
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0952",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 311
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 8
+},
+"money_back_claim": {
+"present": true,
+"t": 141
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 165
+},
+"medicare_number_request": {
+"present": true,
+"t": 350
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0956",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 10
+},
+"money_back_claim": {
+"present": true,
+"t": 66
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 187
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C0970",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 15
+},
+"money_back_claim": {
+"present": true,
+"t": 43
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": false
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "callback_or_followup"
+},
+{
+"call_id": "C1012",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 13
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 155
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1065",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 11
+},
+"money_back_claim": {
+"present": true,
+"t": 28
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": true,
+"t": 152
+},
+"transfer_to_agent": {
+"present": true,
+"t": 154
+},
+"medicare_number_request": {
+"present": true,
+"t": 137
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1066",
+"labels": {
+"tpmo_disclaimer": {
+"present": true,
+"t": 567
+},
+"recording_notice": {
+"present": true,
+"t": 74
+},
+"medicare_affiliation_claim": {
+"present": false
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 787
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 74
+},
+"medicare_number_request": {
+"present": true,
+"t": 242
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1077",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 267
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 13
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 188
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1087",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 16
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": true,
+"t": 240
+},
+"transfer_to_agent": {
+"present": true,
+"t": 488
+},
+"medicare_number_request": {
+"present": true,
+"t": 411
+}
+},
+"outcome": "unclear"
+},
+{
+"call_id": "C1133",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 18
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": true,
+"t": 90
+},
+"transfer_to_agent": {
+"present": true,
+"t": 184
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1195",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 300
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 15
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 328
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 119
+},
+"medicare_number_request": {
+"present": true,
+"t": 144
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1201",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": false
+},
+"money_back_claim": {
+"present": true,
+"t": 187
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": true,
+"t": 90
+},
+"transfer_to_agent": {
+"present": true,
+"t": 330
+},
+"medicare_number_request": {
+"present": true,
+"t": 346
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1223",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": false
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 32
+},
+"medicare_number_request": {
+"present": true,
+"t": 53
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1225",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 11
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 499
+},
+"medicare_number_request": {
+"present": true,
+"t": 172
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1251",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 451
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 11
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 235
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1256",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 24
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": true,
+"t": 370
+},
+"transfer_to_agent": {
+"present": true,
+"t": 821
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "callback_or_followup"
+},
+{
+"call_id": "C1348",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 12
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 241
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1361",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 10
+},
+"money_back_claim": {
+"present": true,
+"t": 335
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": true,
+"t": 57
+},
+"transfer_to_agent": {
+"present": true,
+"t": 210
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1376",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 301
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 20
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": true,
+"t": 327
+},
+"transfer_to_agent": {
+"present": true,
+"t": 105
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1421",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 10
+},
+"money_back_claim": {
+"present": true,
+"t": 196
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 28
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 212
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1438",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 16
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 105
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1441",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 13
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 134
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1446",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 12
+},
+"money_back_claim": {
+"present": true,
+"t": 43
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": false
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "callback_or_followup"
+},
+{
+"call_id": "C1450",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 13
+},
+"money_back_claim": {
+"present": true,
+"t": 43
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 124
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1453",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 10
+},
+"money_back_claim": {
+"present": true,
+"t": 215
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 237
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1477",
+"labels": {
+"tpmo_disclaimer": {
+"present": true,
+"t": 823
+},
+"recording_notice": {
+"present": true,
+"t": 810
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 6
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 218
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 72
+},
+"medicare_number_request": {
+"present": true,
+"t": 239
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1483",
+"labels": {
+"tpmo_disclaimer": {
+"present": true,
+"t": 329
+},
+"recording_notice": {
+"present": true,
+"t": 324
+},
+"medicare_affiliation_claim": {
+"present": false
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 130
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1508",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 12
+},
+"money_back_claim": {
+"present": true,
+"t": 329
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 144
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1562",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 409
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 9
+},
+"money_back_claim": {
+"present": true,
+"t": 54
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 370
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 328
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1567",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": false
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 249
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 5
+},
+"medicare_number_request": {
+"present": true,
+"t": 47
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1568",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 9
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 142
+},
+"medicare_number_request": {
+"present": true,
+"t": 177
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1580",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 7
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 221
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1615",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 14
+},
+"money_back_claim": {
+"present": true,
+"t": 68
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 603
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 242
+},
+"medicare_number_request": {
+"present": true,
+"t": 362
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1656",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 9
+},
+"money_back_claim": {
+"present": true,
+"t": 52
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 120
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1666",
+"labels": {
+"tpmo_disclaimer": {
+"present": true,
+"t": 707
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 10
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 160
+},
+"trust_concern": {
+"present": true,
+"t": 279
+},
+"transfer_to_agent": {
+"present": true,
+"t": 292
+},
+"medicare_number_request": {
+"present": true,
+"t": 307
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1669",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 242
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 19
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 179
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1689",
+"labels": {
+"tpmo_disclaimer": {
+"present": true,
+"t": 518
+},
+"recording_notice": {
+"present": true,
+"t": 497
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 42
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 74
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 367
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1700",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 12
+},
+"money_back_claim": {
+"present": true,
+"t": 83
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 58
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 193
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1711",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 8
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 136
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1720",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 12
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": false
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "callback_or_followup"
+},
+{
+"call_id": "C1721",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 18
+},
+"medicare_affiliation_claim": {
+"present": false
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 22
+},
+"medicare_number_request": {
+"present": true,
+"t": 141
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1806",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 43
+},
+"medicare_affiliation_claim": {
+"present": false
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 58
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 12
+},
+"medicare_number_request": {
+"present": true,
+"t": 86
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1849",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 31
+},
+"medicare_affiliation_claim": {
+"present": false
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": true,
+"t": 265
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 39
+},
+"trust_concern": {
+"present": true,
+"t": 59
+},
+"transfer_to_agent": {
+"present": false
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "declined_or_ended"
+},
+{
+"call_id": "C1881",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 47
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 471
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1882",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 10
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 150
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1891",
+"labels": {
+"tpmo_disclaimer": {
+"present": true,
+"t": 530
+},
+"recording_notice": {
+"present": true,
+"t": 518
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 14
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 246
+},
+"medicare_number_request": {
+"present": true,
+"t": 600
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1900",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 11
+},
+"medicare_affiliation_claim": {
+"present": false
+},
+"money_back_claim": {
+"present": true,
+"t": 301
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 218
+},
+"trust_concern": {
+"present": true,
+"t": 292
+},
+"transfer_to_agent": {
+"present": false
+},
+"medicare_number_request": {
+"present": true,
+"t": 72
+}
+},
+"outcome": "declined_or_ended"
+},
+{
+"call_id": "C1904",
+"labels": {
+"tpmo_disclaimer": {
+"present": true,
+"t": 468
+},
+"recording_notice": {
+"present": true,
+"t": 464
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 10
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 235
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1959",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 21
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 319
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 237
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1976",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 11
+},
+"money_back_claim": {
+"present": true,
+"t": 106
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 145
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C1990",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 14
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 21
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": true,
+"t": 272
+},
+"transfer_to_agent": {
+"present": false
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "callback_or_followup"
+},
+{
+"call_id": "C1998",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 10
+},
+"money_back_claim": {
+"present": true,
+"t": 73
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 84
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C2020",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 127
+},
+"medicare_affiliation_claim": {
+"present": false
+},
+"money_back_claim": {
+"present": true,
+"t": 46
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": true,
+"t": 36
+},
+"transfer_to_agent": {
+"present": true,
+"t": 27
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C2022",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 11
+},
+"money_back_claim": {
+"present": true,
+"t": 42
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 145
+},
+"medicare_number_request": {
+"present": true,
+"t": 280
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C2045",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 35
+},
+"money_back_claim": {
+"present": true,
+"t": 94
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": true,
+"t": 336
+},
+"transfer_to_agent": {
+"present": true,
+"t": 349
+},
+"medicare_number_request": {
+"present": true,
+"t": 305
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C2054",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 412
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 11
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 285
+},
+"medicare_number_request": {
+"present": true,
+"t": 310
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C2066",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 533
+},
+"medicare_affiliation_claim": {
+"present": false
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 68
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 13
+},
+"medicare_number_request": {
+"present": true,
+"t": 592
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C2094",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 11
+},
+"money_back_claim": {
+"present": true,
+"t": 63
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 161
+},
+"trust_concern": {
+"present": true,
+"t": 433
+},
+"transfer_to_agent": {
+"present": true,
+"t": 375
+},
+"medicare_number_request": {
+"present": true,
+"t": 413
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C2149",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 12
+},
+"money_back_claim": {
+"present": true,
+"t": 82
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 146
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C2155",
+"labels": {
+"tpmo_disclaimer": {
+"present": true,
+"t": 404
+},
+"recording_notice": {
+"present": true,
+"t": 380
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 10
+},
+"money_back_claim": {
+"present": true,
+"t": 114
+},
+"do_not_call_request": {
+"present": true,
+"t": 240
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 55
+},
+"trust_concern": {
+"present": true,
+"t": 213
+},
+"transfer_to_agent": {
+"present": true,
+"t": 104
+},
+"medicare_number_request": {
+"present": true,
+"t": 222
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C2201",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 228
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 13
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 176
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C2215",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 7
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 216
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "callback_or_followup"
+},
+{
+"call_id": "C2236",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 621
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 11
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 69
+},
+"medicare_number_request": {
+"present": true,
+"t": 584
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C2288",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 237
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 10
+},
+"money_back_claim": {
+"present": true,
+"t": 76
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 102
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 191
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C2309",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 12
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": true,
+"t": 168
+},
+"transfer_to_agent": {
+"present": false
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "declined_or_ended"
+},
+{
+"call_id": "C2369",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 24
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 434
+},
+"medicare_number_request": {
+"present": true,
+"t": 443
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C2382",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 33
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 285
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C2391",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 8
+},
+"money_back_claim": {
+"present": true,
+"t": 58
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 139
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C2396",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 13
+},
+"money_back_claim": {
+"present": true,
+"t": 38
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 233
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C2397",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 10
+},
+"money_back_claim": {
+"present": true,
+"t": 309
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 358
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 180
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C2444",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 95
+},
+"medicare_affiliation_claim": {
+"present": false
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": false
+},
+"medicare_number_request": {
+"present": true,
+"t": 57
+}
+},
+"outcome": "declined_or_ended"
+},
+{
+"call_id": "C2454",
+"labels": {
+"tpmo_disclaimer": {
+"present": true,
+"t": 462
+},
+"recording_notice": {
+"present": true,
+"t": 25
+},
+"medicare_affiliation_claim": {
+"present": false
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 29
+},
+"medicare_number_request": {
+"present": true,
+"t": 142
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C2497",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 463
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 8
+},
+"money_back_claim": {
+"present": true,
+"t": 49
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": true,
+"t": 300
+},
+"transfer_to_agent": {
+"present": true,
+"t": 154
+},
+"medicare_number_request": {
+"present": true,
+"t": 478
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C2532",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": false
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 42
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C2535",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 12
+},
+"money_back_claim": {
+"present": true,
+"t": 35
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 107
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 134
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C2560",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 17
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 378
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C2569",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 8
+},
+"money_back_claim": {
+"present": true,
+"t": 92
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 183
+},
+"trust_concern": {
+"present": true,
+"t": 219
+},
+"transfer_to_agent": {
+"present": false
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "declined_or_ended"
+},
+{
+"call_id": "C2592",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 368
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 6
+},
+"money_back_claim": {
+"present": true,
+"t": 35
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 243
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C2615",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 11
+},
+"money_back_claim": {
+"present": true,
+"t": 53
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 308
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C2681",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 5
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 197
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C2689",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 383
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 31
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 265
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C2703",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 433
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 14
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 350
+},
+"medicare_number_request": {
+"present": true,
+"t": 128
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C2735",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 9
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 293
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 129
+},
+"medicare_number_request": {
+"present": true,
+"t": 252
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C2781",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 254
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 8
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": true,
+"t": 189
+},
+"transfer_to_agent": {
+"present": true,
+"t": 167
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C2782",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 7
+},
+"medicare_affiliation_claim": {
+"present": false
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": true,
+"t": 910
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": true,
+"t": 207
+},
+"transfer_to_agent": {
+"present": true,
+"t": 2
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C2792",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 14
+},
+"money_back_claim": {
+"present": true,
+"t": 46
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 133
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C2801",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 28
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 170
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 260
+},
+"medicare_number_request": {
+"present": true,
+"t": 313
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C2802",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 735
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 8
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 92
+},
+"medicare_number_request": {
+"present": true,
+"t": 258
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C2823",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 14
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 186
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C2826",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 24
+},
+"medicare_affiliation_claim": {
+"present": false
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 717
+},
+"trust_concern": {
+"present": true,
+"t": 772
+},
+"transfer_to_agent": {
+"present": true,
+"t": 0
+},
+"medicare_number_request": {
+"present": true,
+"t": 375
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C2913",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 22
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 84
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 232
+},
+"medicare_number_request": {
+"present": true,
+"t": 347
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C2968",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": false
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 76
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "callback_or_followup"
+},
+{
+"call_id": "C2971",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 214
+},
+"medicare_affiliation_claim": {
+"present": false
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 73
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 29
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3004",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 16
+},
+"money_back_claim": {
+"present": true,
+"t": 59
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 150
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3014",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 14
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 113
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3015",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": false
+},
+"money_back_claim": {
+"present": true,
+"t": 69
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 171
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3021",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 531
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 15
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 561
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 411
+},
+"medicare_number_request": {
+"present": true,
+"t": 435
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3023",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": false
+},
+"money_back_claim": {
+"present": true,
+"t": 118
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 17
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3071",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 583
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 13
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 300
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 267
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3073",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 13
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 131
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3077",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 9
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 173
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3089",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 13
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 247
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 256
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3139",
+"labels": {
+"tpmo_disclaimer": {
+"present": true,
+"t": 703
+},
+"recording_notice": {
+"present": true,
+"t": 700
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 11
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 393
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3155",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 432
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 17
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 180
+},
+"trust_concern": {
+"present": true,
+"t": 201
+},
+"transfer_to_agent": {
+"present": true,
+"t": 309
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3167",
+"labels": {
+"tpmo_disclaimer": {
+"present": true,
+"t": 494
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 12
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 282
+},
+"trust_concern": {
+"present": true,
+"t": 165
+},
+"transfer_to_agent": {
+"present": true,
+"t": 177
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3176",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 11
+},
+"money_back_claim": {
+"present": true,
+"t": 59
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 187
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3182",
+"labels": {
+"tpmo_disclaimer": {
+"present": true,
+"t": 238
+},
+"recording_notice": {
+"present": true,
+"t": 224
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 13
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 112
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3218",
+"labels": {
+"tpmo_disclaimer": {
+"present": true,
+"t": 713
+},
+"recording_notice": {
+"present": true,
+"t": 685
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 11
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": true,
+"t": 318
+},
+"transfer_to_agent": {
+"present": true,
+"t": 234
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3223",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 10
+},
+"money_back_claim": {
+"present": true,
+"t": 61
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": false
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "declined_or_ended"
+},
+{
+"call_id": "C3243",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 45
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 170
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3249",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 362
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 10
+},
+"money_back_claim": {
+"present": true,
+"t": 25
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 44
+},
+"trust_concern": {
+"present": true,
+"t": 331
+},
+"transfer_to_agent": {
+"present": true,
+"t": 380
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3296",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 148
+},
+"money_back_claim": {
+"present": true,
+"t": 159
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": true,
+"t": 335
+},
+"transfer_to_agent": {
+"present": true,
+"t": 16
+},
+"medicare_number_request": {
+"present": true,
+"t": 387
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3302",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 273
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 10
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 117
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 162
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3311",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 284
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 10
+},
+"money_back_claim": {
+"present": true,
+"t": 60
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 208
+},
+"medicare_number_request": {
+"present": true,
+"t": 175
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3312",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 14
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 139
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3322",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 426
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 22
+},
+"money_back_claim": {
+"present": true,
+"t": 61
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 157
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3338",
+"labels": {
+"tpmo_disclaimer": {
+"present": true,
+"t": 751
+},
+"recording_notice": {
+"present": true,
+"t": 747
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 10
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 151
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 544
+},
+"medicare_number_request": {
+"present": true,
+"t": 230
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3367",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": false
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 41
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3380",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 243
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 14
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 143
+},
+"medicare_number_request": {
+"present": true,
+"t": 246
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3390",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 303
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 13
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 218
+},
+"medicare_number_request": {
+"present": true,
+"t": 248
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3410",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 16
+},
+"money_back_claim": {
+"present": true,
+"t": 26
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 73
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3422",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 168
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 9
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 32
+},
+"trust_concern": {
+"present": true,
+"t": 165
+},
+"transfer_to_agent": {
+"present": true,
+"t": 317
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3423",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 9
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 126
+},
+"medicare_number_request": {
+"present": true,
+"t": 213
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3433",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": false
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 132
+},
+"medicare_number_request": {
+"present": true,
+"t": 148
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3461",
+"labels": {
+"tpmo_disclaimer": {
+"present": true,
+"t": 354
+},
+"recording_notice": {
+"present": true,
+"t": 333
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 14
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 167
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3479",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 9
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 116
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3493",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 11
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 140
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3516",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 9
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 118
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3540",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 257
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 27
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 177
+},
+"medicare_number_request": {
+"present": true,
+"t": 184
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3636",
+"labels": {
+"tpmo_disclaimer": {
+"present": true,
+"t": 373
+},
+"recording_notice": {
+"present": true,
+"t": 365
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 12
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 210
+},
+"medicare_number_request": {
+"present": true,
+"t": 161
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3654",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": false
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": true,
+"t": 92
+},
+"transfer_to_agent": {
+"present": true,
+"t": 12
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3659",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 260
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 12
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 100
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3675",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 396
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 10
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 309
+},
+"medicare_number_request": {
+"present": true,
+"t": 432
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3696",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 513
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 11
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 363
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3764",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 12
+},
+"money_back_claim": {
+"present": true,
+"t": 22
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 315
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 108
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3794",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 11
+},
+"money_back_claim": {
+"present": true,
+"t": 42
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 95
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3800",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 1
+},
+"money_back_claim": {
+"present": true,
+"t": 27
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 180
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3813",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 11
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": true,
+"t": 82
+},
+"transfer_to_agent": {
+"present": true,
+"t": 318
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3815",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 522
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 14
+},
+"money_back_claim": {
+"present": true,
+"t": 57
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": true,
+"t": 368
+},
+"transfer_to_agent": {
+"present": true,
+"t": 259
+},
+"medicare_number_request": {
+"present": true,
+"t": 446
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3840",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 728
+},
+"medicare_affiliation_claim": {
+"present": false
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": true,
+"t": 1051
+},
+"already_covered": {
+"present": true,
+"t": 913
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 10
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3841",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 20
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": true,
+"t": 64
+},
+"transfer_to_agent": {
+"present": true,
+"t": 68
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3858",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 12
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 224
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3863",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": false
+},
+"money_back_claim": {
+"present": true,
+"t": 259
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 154
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3876",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": false
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 15
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3879",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 13
+},
+"money_back_claim": {
+"present": true,
+"t": 96
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": true,
+"t": 129
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 220
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3899",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 49
+},
+"money_back_claim": {
+"present": true,
+"t": 120
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 164
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3914",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 512
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 22
+},
+"money_back_claim": {
+"present": true,
+"t": 50
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": true,
+"t": 158
+},
+"transfer_to_agent": {
+"present": true,
+"t": 390
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3959",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 378
+},
+"medicare_affiliation_claim": {
+"present": false
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 230
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3977",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": false
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 16
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3984",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": true,
+"t": 145
+},
+"medicare_affiliation_claim": {
+"present": false
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": true,
+"t": 330
+},
+"already_covered": {
+"present": true,
+"t": 195
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 11
+},
+"medicare_number_request": {
+"present": true,
+"t": 56
+}
+},
+"outcome": "transferred"
+},
+{
+"call_id": "C3986",
+"labels": {
+"tpmo_disclaimer": {
+"present": false
+},
+"recording_notice": {
+"present": false
+},
+"medicare_affiliation_claim": {
+"present": true,
+"t": 10
+},
+"money_back_claim": {
+"present": false
+},
+"do_not_call_request": {
+"present": false
+},
+"not_interested": {
+"present": false
+},
+"already_covered": {
+"present": false
+},
+"trust_concern": {
+"present": false
+},
+"transfer_to_agent": {
+"present": true,
+"t": 104
+},
+"medicare_number_request": {
+"present": false
+}
+},
+"outcome": "transferred"
+}
+]

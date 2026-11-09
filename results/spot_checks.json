@@ -1,0 +1,52 @@
+{
+ "comprehension_friction": {
+  "version": "d1",
+  "n": 25,
+  "correct": 22
+ },
+ "no_more_calls_promise": {
+  "version": "d1",
+  "n": 25,
+  "correct": 25
+ },
+ "card_not_handy": {
+  "version": "d1",
+  "n": 25,
+  "correct": 23
+ },
+ "card_ready_check": {
+  "version": "d1",
+  "n": 25,
+  "correct": 24
+ },
+ "unsure_of_coverage": {
+  "version": "d1",
+  "n": 25,
+  "correct": 21
+ },
+ "asks_call_purpose": {
+  "version": "d2",
+  "n": 25,
+  "correct": 24,
+  "before": {
+   "version": "d1",
+   "n": 25,
+   "correct": 9
+  }
+ },
+ "call_fatigue": {
+  "version": "d1",
+  "n": 25,
+  "correct": 21
+ },
+ "bad_time_callback": {
+  "version": "d2",
+  "n": 25,
+  "correct": 16,
+  "before": {
+   "version": "d1",
+   "n": 25,
+   "correct": 16
+  }
+ }
+}

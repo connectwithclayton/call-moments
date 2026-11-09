@@ -1,0 +1,427 @@
+[
+ {
+  "df_min": 20,
+  "thr": 0.4,
+  "agent": [
+   236,
+   13,
+   1
+  ],
+  "customer": [
+   2,
+   28,
+   7
+  ],
+  "acc_known": 0.946,
+  "cust_recall": 0.933,
+  "agent_recall": 0.948
+ },
+ {
+  "df_min": 80,
+  "thr": 0.3,
+  "agent": [
+   225,
+   24,
+   1
+  ],
+  "customer": [
+   1,
+   29,
+   7
+  ],
+  "acc_known": 0.91,
+  "cust_recall": 0.967,
+  "agent_recall": 0.904
+ },
+ {
+  "df_min": 20,
+  "thr": 0.5,
+  "agent": [
+   232,
+   17,
+   1
+  ],
+  "customer": [
+   2,
+   28,
+   7
+  ],
+  "acc_known": 0.932,
+  "cust_recall": 0.933,
+  "agent_recall": 0.932
+ },
+ {
+  "df_min": 80,
+  "thr": 0.4,
+  "agent": [
+   214,
+   35,
+   1
+  ],
+  "customer": [
+   0,
+   30,
+   7
+  ],
+  "acc_known": 0.875,
+  "cust_recall": 1.0,
+  "agent_recall": 0.859
+ },
+ {
+  "df_min": 10,
+  "thr": 0.4,
+  "agent": [
+   245,
+   4,
+   1
+  ],
+  "customer": [
+   4,
+   26,
+   7
+  ],
+  "acc_known": 0.971,
+  "cust_recall": 0.867,
+  "agent_recall": 0.984
+ },
+ {
+  "df_min": 40,
+  "thr": 0.4,
+  "agent": [
+   228,
+   21,
+   1
+  ],
+  "customer": [
+   2,
+   28,
+   7
+  ],
+  "acc_known": 0.918,
+  "cust_recall": 0.933,
+  "agent_recall": 0.916
+ },
+ {
+  "df_min": 20,
+  "thr": 0.6,
+  "agent": [
+   224,
+   25,
+   1
+  ],
+  "customer": [
+   2,
+   28,
+   7
+  ],
+  "acc_known": 0.903,
+  "cust_recall": 0.933,
+  "agent_recall": 0.9
+ },
+ {
+  "df_min": 40,
+  "thr": 0.3,
+  "agent": [
+   232,
+   17,
+   1
+  ],
+  "customer": [
+   3,
+   27,
+   7
+  ],
+  "acc_known": 0.928,
+  "cust_recall": 0.9,
+  "agent_recall": 0.932
+ },
+ {
+  "df_min": 10,
+  "thr": 0.5,
+  "agent": [
+   240,
+   9,
+   1
+  ],
+  "customer": [
+   4,
+   26,
+   7
+  ],
+  "acc_known": 0.953,
+  "cust_recall": 0.867,
+  "agent_recall": 0.964
+ },
+ {
+  "df_min": 20,
+  "thr": 0.3,
+  "agent": [
+   240,
+   9,
+   1
+  ],
+  "customer": [
+   4,
+   26,
+   7
+  ],
+  "acc_known": 0.953,
+  "cust_recall": 0.867,
+  "agent_recall": 0.964
+ },
+ {
+  "df_min": 40,
+  "thr": 0.5,
+  "agent": [
+   223,
+   26,
+   1
+  ],
+  "customer": [
+   2,
+   28,
+   7
+  ],
+  "acc_known": 0.9,
+  "cust_recall": 0.933,
+  "agent_recall": 0.896
+ },
+ {
+  "df_min": 80,
+  "thr": 0.5,
+  "agent": [
+   202,
+   47,
+   1
+  ],
+  "customer": [
+   0,
+   30,
+   7
+  ],
+  "acc_known": 0.832,
+  "cust_recall": 1.0,
+  "agent_recall": 0.811
+ },
+ {
+  "df_min": 10,
+  "thr": 0.6,
+  "agent": [
+   234,
+   15,
+   1
+  ],
+  "customer": [
+   4,
+   26,
+   7
+  ],
+  "acc_known": 0.932,
+  "cust_recall": 0.867,
+  "agent_recall": 0.94
+ },
+ {
+  "df_min": 160,
+  "thr": 0.3,
+  "agent": [
+   205,
+   44,
+   1
+  ],
+  "customer": [
+   1,
+   29,
+   7
+  ],
+  "acc_known": 0.839,
+  "cust_recall": 0.967,
+  "agent_recall": 0.823
+ },
+ {
+  "df_min": 10,
+  "thr": 0.3,
+  "agent": [
+   246,
+   3,
+   1
+  ],
+  "customer": [
+   6,
+   24,
+   7
+  ],
+  "acc_known": 0.968,
+  "cust_recall": 0.8,
+  "agent_recall": 0.988
+ },
+ {
+  "df_min": 160,
+  "thr": 0.4,
+  "agent": [
+   195,
+   54,
+   1
+  ],
+  "customer": [
+   0,
+   30,
+   7
+  ],
+  "acc_known": 0.806,
+  "cust_recall": 1.0,
+  "agent_recall": 0.783
+ },
+ {
+  "df_min": 10,
+  "thr": 0.7,
+  "agent": [
+   216,
+   33,
+   1
+  ],
+  "customer": [
+   3,
+   27,
+   7
+  ],
+  "acc_known": 0.871,
+  "cust_recall": 0.9,
+  "agent_recall": 0.867
+ },
+ {
+  "df_min": 40,
+  "thr": 0.6,
+  "agent": [
+   206,
+   43,
+   1
+  ],
+  "customer": [
+   2,
+   28,
+   7
+  ],
+  "acc_known": 0.839,
+  "cust_recall": 0.933,
+  "agent_recall": 0.827
+ },
+ {
+  "df_min": 80,
+  "thr": 0.6,
+  "agent": [
+   185,
+   64,
+   1
+  ],
+  "customer": [
+   0,
+   30,
+   7
+  ],
+  "acc_known": 0.771,
+  "cust_recall": 1.0,
+  "agent_recall": 0.743
+ },
+ {
+  "df_min": 20,
+  "thr": 0.7,
+  "agent": [
+   199,
+   50,
+   1
+  ],
+  "customer": [
+   2,
+   28,
+   7
+  ],
+  "acc_known": 0.814,
+  "cust_recall": 0.933,
+  "agent_recall": 0.799
+ },
+ {
+  "df_min": 160,
+  "thr": 0.5,
+  "agent": [
+   172,
+   77,
+   1
+  ],
+  "customer": [
+   0,
+   30,
+   7
+  ],
+  "acc_known": 0.724,
+  "cust_recall": 1.0,
+  "agent_recall": 0.691
+ },
+ {
+  "df_min": 40,
+  "thr": 0.7,
+  "agent": [
+   179,
+   70,
+   1
+  ],
+  "customer": [
+   2,
+   28,
+   7
+  ],
+  "acc_known": 0.742,
+  "cust_recall": 0.933,
+  "agent_recall": 0.719
+ },
+ {
+  "df_min": 80,
+  "thr": 0.7,
+  "agent": [
+   153,
+   96,
+   1
+  ],
+  "customer": [
+   0,
+   30,
+   7
+  ],
+  "acc_known": 0.656,
+  "cust_recall": 1.0,
+  "agent_recall": 0.614
+ },
+ {
+  "df_min": 160,
+  "thr": 0.6,
+  "agent": [
+   140,
+   109,
+   1
+  ],
+  "customer": [
+   0,
+   30,
+   7
+  ],
+  "acc_known": 0.609,
+  "cust_recall": 1.0,
+  "agent_recall": 0.562
+ },
+ {
+  "df_min": 160,
+  "thr": 0.7,
+  "agent": [
+   108,
+   141,
+   1
+  ],
+  "customer": [
+   0,
+   30,
+   7
+  ],
+  "acc_known": 0.495,
+  "cust_recall": 1.0,
+  "agent_recall": 0.434
+ }
+]

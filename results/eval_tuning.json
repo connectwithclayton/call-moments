@@ -1,0 +1,870 @@
+{
+ "n_labeled": 201,
+ "n_random": 150,
+ "rules": [
+  {
+   "rule": "tpmo_v1",
+   "moment": "tpmo_disclaimer",
+   "version": "v1",
+   "precision": 1.0,
+   "precision_ci": [
+    0.839,
+    1
+   ],
+   "fires": 20,
+   "recall": 0.6666666666666666,
+   "recall_ci": [
+    0.208,
+    0.939
+   ],
+   "positives_random": 3,
+   "f1": 0.8,
+   "labeled_prevalence_random": 0.02,
+   "n_random": 150,
+   "rule_rate_random": 0.013333333333333334
+  },
+  {
+   "rule": "tpmo_v2",
+   "moment": "tpmo_disclaimer",
+   "version": "v2",
+   "precision": 1.0,
+   "precision_ci": [
+    0.839,
+    1
+   ],
+   "fires": 20,
+   "recall": 0.6666666666666666,
+   "recall_ci": [
+    0.208,
+    0.939
+   ],
+   "positives_random": 3,
+   "f1": 0.8,
+   "labeled_prevalence_random": 0.02,
+   "n_random": 150,
+   "rule_rate_random": 0.013333333333333334
+  },
+  {
+   "rule": "recording_v1",
+   "moment": "recording_notice",
+   "version": "v1",
+   "precision": 1.0,
+   "precision_ci": [
+    0.951,
+    1
+   ],
+   "fires": 75,
+   "recall": 0.9411764705882353,
+   "recall_ci": [
+    0.841,
+    0.98
+   ],
+   "positives_random": 51,
+   "f1": 0.9696969696969697,
+   "labeled_prevalence_random": 0.34,
+   "n_random": 150,
+   "rule_rate_random": 0.32
+  },
+  {
+   "rule": "recording_v2",
+   "moment": "recording_notice",
+   "version": "v2",
+   "precision": 0.9866666666666667,
+   "precision_ci": [
+    0.928,
+    0.998
+   ],
+   "fires": 75,
+   "recall": 0.9215686274509803,
+   "recall_ci": [
+    0.815,
+    0.969
+   ],
+   "positives_random": 51,
+   "f1": 0.9530072612686669,
+   "labeled_prevalence_random": 0.34,
+   "n_random": 150,
+   "rule_rate_random": 0.32
+  },
+  {
+   "rule": "affiliation_v1",
+   "moment": "medicare_affiliation_claim",
+   "version": "v1",
+   "precision": null,
+   "precision_ci": null,
+   "fires": 0,
+   "recall": 0.0,
+   "recall_ci": [
+    0,
+    0.03
+   ],
+   "positives_random": 125,
+   "f1": null,
+   "labeled_prevalence_random": 0.8333333333333334,
+   "n_random": 150,
+   "rule_rate_random": 0.0
+  },
+  {
+   "rule": "affiliation_v2",
+   "moment": "medicare_affiliation_claim",
+   "version": "v2",
+   "precision": 1.0,
+   "precision_ci": [
+    0.974,
+    1
+   ],
+   "fires": 143,
+   "recall": 0.864,
+   "recall_ci": [
+    0.793,
+    0.913
+   ],
+   "positives_random": 125,
+   "f1": 0.9270386266094421,
+   "labeled_prevalence_random": 0.8333333333333334,
+   "n_random": 150,
+   "rule_rate_random": 0.72
+  },
+  {
+   "rule": "moneyback_v1",
+   "moment": "money_back_claim",
+   "version": "v1",
+   "precision": 0.75,
+   "precision_ci": [
+    0.598,
+    0.858
+   ],
+   "fires": 40,
+   "recall": 0.4,
+   "recall_ci": [
+    0.286,
+    0.526
+   ],
+   "positives_random": 60,
+   "f1": 0.5217391304347827,
+   "labeled_prevalence_random": 0.4,
+   "n_random": 150,
+   "rule_rate_random": 0.21333333333333335
+  },
+  {
+   "rule": "moneyback_v2",
+   "moment": "money_back_claim",
+   "version": "v2",
+   "precision": 0.9852941176470589,
+   "precision_ci": [
+    0.921,
+    0.997
+   ],
+   "fires": 68,
+   "recall": 0.9,
+   "recall_ci": [
+    0.799,
+    0.953
+   ],
+   "positives_random": 60,
+   "f1": 0.9407176287051483,
+   "labeled_prevalence_random": 0.4,
+   "n_random": 150,
+   "rule_rate_random": 0.36666666666666664
+  },
+  {
+   "rule": "dnc_v1",
+   "moment": "do_not_call_request",
+   "version": "v1",
+   "precision": 0.0,
+   "precision_ci": [
+    0,
+    0.49
+   ],
+   "fires": 4,
+   "recall": null,
+   "recall_ci": null,
+   "positives_random": 0,
+   "f1": null,
+   "labeled_prevalence_random": 0.0,
+   "n_random": 150,
+   "rule_rate_random": 0.013333333333333334
+  },
+  {
+   "rule": "dnc_v2",
+   "moment": "do_not_call_request",
+   "version": "v2",
+   "precision": 0.25,
+   "precision_ci": [
+    0.071,
+    0.591
+   ],
+   "fires": 8,
+   "recall": null,
+   "recall_ci": null,
+   "positives_random": 0,
+   "f1": null,
+   "labeled_prevalence_random": 0.0,
+   "n_random": 150,
+   "rule_rate_random": 0.013333333333333334
+  },
+  {
+   "rule": "notint_v1",
+   "moment": "not_interested",
+   "version": "v1",
+   "precision": null,
+   "precision_ci": null,
+   "fires": 0,
+   "recall": 0.0,
+   "recall_ci": [
+    0,
+    0.562
+   ],
+   "positives_random": 3,
+   "f1": null,
+   "labeled_prevalence_random": 0.02,
+   "n_random": 150,
+   "rule_rate_random": 0.0
+  },
+  {
+   "rule": "notint_v2",
+   "moment": "not_interested",
+   "version": "v2",
+   "precision": 0.0,
+   "precision_ci": [
+    0,
+    0.39
+   ],
+   "fires": 6,
+   "recall": 0.0,
+   "recall_ci": [
+    0,
+    0.562
+   ],
+   "positives_random": 3,
+   "f1": null,
+   "labeled_prevalence_random": 0.02,
+   "n_random": 150,
+   "rule_rate_random": 0.02666666666666667
+  },
+  {
+   "rule": "covered_v1",
+   "moment": "already_covered",
+   "version": "v1",
+   "precision": 0.7142857142857143,
+   "precision_ci": [
+    0.359,
+    0.918
+   ],
+   "fires": 7,
+   "recall": 0.029411764705882353,
+   "recall_ci": [
+    0.005,
+    0.149
+   ],
+   "positives_random": 34,
+   "f1": 0.05649717514124294,
+   "labeled_prevalence_random": 0.22666666666666666,
+   "n_random": 150,
+   "rule_rate_random": 0.02
+  },
+  {
+   "rule": "covered_v2",
+   "moment": "already_covered",
+   "version": "v2",
+   "precision": 0.8888888888888888,
+   "precision_ci": [
+    0.565,
+    0.98
+   ],
+   "fires": 9,
+   "recall": 0.08823529411764706,
+   "recall_ci": [
+    0.03,
+    0.23
+   ],
+   "positives_random": 34,
+   "f1": 0.1605351170568562,
+   "labeled_prevalence_random": 0.22666666666666666,
+   "n_random": 150,
+   "rule_rate_random": 0.02666666666666667
+  },
+  {
+   "rule": "trust_v1",
+   "moment": "trust_concern",
+   "version": "v1",
+   "precision": 1.0,
+   "precision_ci": [
+    0.757,
+    1
+   ],
+   "fires": 12,
+   "recall": 0.0,
+   "recall_ci": [
+    0,
+    0.143
+   ],
+   "positives_random": 23,
+   "f1": null,
+   "labeled_prevalence_random": 0.15333333333333332,
+   "n_random": 150,
+   "rule_rate_random": 0.0
+  },
+  {
+   "rule": "trust_v2",
+   "moment": "trust_concern",
+   "version": "v2",
+   "precision": 0.8571428571428571,
+   "precision_ci": [
+    0.487,
+    0.974
+   ],
+   "fires": 7,
+   "recall": 0.08695652173913043,
+   "recall_ci": [
+    0.024,
+    0.268
+   ],
+   "positives_random": 23,
+   "f1": 0.15789473684210523,
+   "labeled_prevalence_random": 0.15333333333333332,
+   "n_random": 150,
+   "rule_rate_random": 0.013333333333333334
+  },
+  {
+   "rule": "transfer_v1",
+   "moment": "transfer_to_agent",
+   "version": "v1",
+   "precision": 1.0,
+   "precision_ci": [
+    0.92,
+    1.0
+   ],
+   "fires": 44,
+   "recall": 0.1678832116788321,
+   "recall_ci": [
+    0.115,
+    0.239
+   ],
+   "positives_random": 137,
+   "f1": 0.2875,
+   "labeled_prevalence_random": 0.9133333333333333,
+   "n_random": 150,
+   "rule_rate_random": 0.15333333333333332
+  },
+  {
+   "rule": "transfer_v2",
+   "moment": "transfer_to_agent",
+   "version": "v2",
+   "precision": 0.9856115107913669,
+   "precision_ci": [
+    0.949,
+    0.996
+   ],
+   "fires": 139,
+   "recall": 0.7153284671532847,
+   "recall_ci": [
+    0.635,
+    0.784
+   ],
+   "positives_random": 137,
+   "f1": 0.8289957086845111,
+   "labeled_prevalence_random": 0.9133333333333333,
+   "n_random": 150,
+   "rule_rate_random": 0.6666666666666666
+  },
+  {
+   "rule": "medid_v1",
+   "moment": "medicare_number_request",
+   "version": "v1",
+   "precision": 0.9333333333333333,
+   "precision_ci": [
+    0.702,
+    0.988
+   ],
+   "fires": 15,
+   "recall": 0.19444444444444445,
+   "recall_ci": [
+    0.098,
+    0.35
+   ],
+   "positives_random": 36,
+   "f1": 0.32183908045977017,
+   "labeled_prevalence_random": 0.24,
+   "n_random": 150,
+   "rule_rate_random": 0.04666666666666667
+  },
+  {
+   "rule": "medid_v2",
+   "moment": "medicare_number_request",
+   "version": "v2",
+   "precision": 0.5955056179775281,
+   "precision_ci": [
+    0.492,
+    0.691
+   ],
+   "fires": 89,
+   "recall": 0.8888888888888888,
+   "recall_ci": [
+    0.747,
+    0.956
+   ],
+   "positives_random": 36,
+   "f1": 0.7132043734230445,
+   "labeled_prevalence_random": 0.24,
+   "n_random": 150,
+   "rule_rate_random": 0.37333333333333335
+  },
+  {
+   "rule": "tpmo_v3",
+   "moment": "tpmo_disclaimer",
+   "version": "v3",
+   "precision": 1.0,
+   "precision_ci": [
+    0.845,
+    1.0
+   ],
+   "fires": 21,
+   "recall": 1.0,
+   "recall_ci": [
+    0.438,
+    1
+   ],
+   "positives_random": 3,
+   "f1": 1.0,
+   "labeled_prevalence_random": 0.02,
+   "n_random": 150,
+   "rule_rate_random": 0.02
+  },
+  {
+   "rule": "recording_v3",
+   "moment": "recording_notice",
+   "version": "v3",
+   "precision": 0.987012987012987,
+   "precision_ci": [
+    0.93,
+    0.998
+   ],
+   "fires": 77,
+   "recall": 0.9607843137254902,
+   "recall_ci": [
+    0.868,
+    0.989
+   ],
+   "positives_random": 51,
+   "f1": 0.9737220551706106,
+   "labeled_prevalence_random": 0.34,
+   "n_random": 150,
+   "rule_rate_random": 0.3333333333333333
+  },
+  {
+   "rule": "affiliation_v3",
+   "moment": "medicare_affiliation_claim",
+   "version": "v3",
+   "precision": 1.0,
+   "precision_ci": [
+    0.976,
+    1
+   ],
+   "fires": 159,
+   "recall": 0.984,
+   "recall_ci": [
+    0.944,
+    0.996
+   ],
+   "positives_random": 125,
+   "f1": 0.9919354838709677,
+   "labeled_prevalence_random": 0.8333333333333334,
+   "n_random": 150,
+   "rule_rate_random": 0.82
+  },
+  {
+   "rule": "moneyback_v3",
+   "moment": "money_back_claim",
+   "version": "v3",
+   "precision": 0.9864864864864865,
+   "precision_ci": [
+    0.927,
+    0.998
+   ],
+   "fires": 74,
+   "recall": 1.0,
+   "recall_ci": [
+    0.94,
+    1.0
+   ],
+   "positives_random": 60,
+   "f1": 0.9931972789115647,
+   "labeled_prevalence_random": 0.4,
+   "n_random": 150,
+   "rule_rate_random": 0.4066666666666667
+  },
+  {
+   "rule": "dnc_v3",
+   "moment": "do_not_call_request",
+   "version": "v3",
+   "precision": 0.6666666666666666,
+   "precision_ci": [
+    0.208,
+    0.939
+   ],
+   "fires": 3,
+   "recall": null,
+   "recall_ci": null,
+   "positives_random": 0,
+   "f1": null,
+   "labeled_prevalence_random": 0.0,
+   "n_random": 150,
+   "rule_rate_random": 0.0
+  },
+  {
+   "rule": "notint_v3",
+   "moment": "not_interested",
+   "version": "v3",
+   "precision": 0.25,
+   "precision_ci": [
+    0.046,
+    0.699
+   ],
+   "fires": 4,
+   "recall": 0.3333333333333333,
+   "recall_ci": [
+    0.061,
+    0.792
+   ],
+   "positives_random": 3,
+   "f1": 0.28571428571428575,
+   "labeled_prevalence_random": 0.02,
+   "n_random": 150,
+   "rule_rate_random": 0.02
+  },
+  {
+   "rule": "covered_v3",
+   "moment": "already_covered",
+   "version": "v3",
+   "precision": 0.7777777777777778,
+   "precision_ci": [
+    0.619,
+    0.883
+   ],
+   "fires": 36,
+   "recall": 0.4411764705882353,
+   "recall_ci": [
+    0.289,
+    0.605
+   ],
+   "positives_random": 34,
+   "f1": 0.5630026809651474,
+   "labeled_prevalence_random": 0.22666666666666666,
+   "n_random": 150,
+   "rule_rate_random": 0.14666666666666667
+  },
+  {
+   "rule": "trust_v3",
+   "moment": "trust_concern",
+   "version": "v3",
+   "precision": 0.8484848484848485,
+   "precision_ci": [
+    0.691,
+    0.933
+   ],
+   "fires": 33,
+   "recall": 0.4782608695652174,
+   "recall_ci": [
+    0.292,
+    0.67
+   ],
+   "positives_random": 23,
+   "f1": 0.6117179741807349,
+   "labeled_prevalence_random": 0.15333333333333332,
+   "n_random": 150,
+   "rule_rate_random": 0.07333333333333333
+  },
+  {
+   "rule": "transfer_v3",
+   "moment": "transfer_to_agent",
+   "version": "v3",
+   "precision": 0.9886363636363636,
+   "precision_ci": [
+    0.96,
+    0.997
+   ],
+   "fires": 176,
+   "recall": 0.927007299270073,
+   "recall_ci": [
+    0.871,
+    0.96
+   ],
+   "positives_random": 137,
+   "f1": 0.9568304827884824,
+   "labeled_prevalence_random": 0.9133333333333333,
+   "n_random": 150,
+   "rule_rate_random": 0.86
+  },
+  {
+   "rule": "medid_v3",
+   "moment": "medicare_number_request",
+   "version": "v3",
+   "precision": 0.6091954022988506,
+   "precision_ci": [
+    0.504,
+    0.705
+   ],
+   "fires": 87,
+   "recall": 0.8888888888888888,
+   "recall_ci": [
+    0.747,
+    0.956
+   ],
+   "positives_random": 36,
+   "f1": 0.7229326513213982,
+   "labeled_prevalence_random": 0.24,
+   "n_random": 150,
+   "rule_rate_random": 0.36666666666666664
+  },
+  {
+   "rule": "tpmo_v4",
+   "moment": "tpmo_disclaimer",
+   "version": "v4",
+   "precision": 1.0,
+   "precision_ci": [
+    0.845,
+    1.0
+   ],
+   "fires": 21,
+   "recall": 1.0,
+   "recall_ci": [
+    0.438,
+    1
+   ],
+   "positives_random": 3,
+   "f1": 1.0,
+   "labeled_prevalence_random": 0.02,
+   "n_random": 150,
+   "rule_rate_random": 0.02
+  },
+  {
+   "rule": "recording_v4",
+   "moment": "recording_notice",
+   "version": "v4",
+   "precision": 0.987012987012987,
+   "precision_ci": [
+    0.93,
+    0.998
+   ],
+   "fires": 77,
+   "recall": 0.9607843137254902,
+   "recall_ci": [
+    0.868,
+    0.989
+   ],
+   "positives_random": 51,
+   "f1": 0.9737220551706106,
+   "labeled_prevalence_random": 0.34,
+   "n_random": 150,
+   "rule_rate_random": 0.3333333333333333
+  },
+  {
+   "rule": "affiliation_v4",
+   "moment": "medicare_affiliation_claim",
+   "version": "v4",
+   "precision": 1.0,
+   "precision_ci": [
+    0.976,
+    1
+   ],
+   "fires": 159,
+   "recall": 0.984,
+   "recall_ci": [
+    0.944,
+    0.996
+   ],
+   "positives_random": 125,
+   "f1": 0.9919354838709677,
+   "labeled_prevalence_random": 0.8333333333333334,
+   "n_random": 150,
+   "rule_rate_random": 0.82
+  },
+  {
+   "rule": "moneyback_v4",
+   "moment": "money_back_claim",
+   "version": "v4",
+   "precision": 0.9864864864864865,
+   "precision_ci": [
+    0.927,
+    0.998
+   ],
+   "fires": 74,
+   "recall": 1.0,
+   "recall_ci": [
+    0.94,
+    1.0
+   ],
+   "positives_random": 60,
+   "f1": 0.9931972789115647,
+   "labeled_prevalence_random": 0.4,
+   "n_random": 150,
+   "rule_rate_random": 0.4066666666666667
+  },
+  {
+   "rule": "dnc_v4",
+   "moment": "do_not_call_request",
+   "version": "v4",
+   "precision": 0.6666666666666666,
+   "precision_ci": [
+    0.208,
+    0.939
+   ],
+   "fires": 3,
+   "recall": null,
+   "recall_ci": null,
+   "positives_random": 0,
+   "f1": null,
+   "labeled_prevalence_random": 0.0,
+   "n_random": 150,
+   "rule_rate_random": 0.0
+  },
+  {
+   "rule": "notint_v4",
+   "moment": "not_interested",
+   "version": "v4",
+   "precision": 0.2727272727272727,
+   "precision_ci": [
+    0.097,
+    0.566
+   ],
+   "fires": 11,
+   "recall": 0.6666666666666666,
+   "recall_ci": [
+    0.208,
+    0.939
+   ],
+   "positives_random": 3,
+   "f1": 0.3870967741935484,
+   "labeled_prevalence_random": 0.02,
+   "n_random": 150,
+   "rule_rate_random": 0.04
+  },
+  {
+   "rule": "covered_v4",
+   "moment": "already_covered",
+   "version": "v4",
+   "precision": 0.7708333333333334,
+   "precision_ci": [
+    0.635,
+    0.867
+   ],
+   "fires": 48,
+   "recall": 0.5882352941176471,
+   "recall_ci": [
+    0.422,
+    0.736
+   ],
+   "positives_random": 34,
+   "f1": 0.6672678088367899,
+   "labeled_prevalence_random": 0.22666666666666666,
+   "n_random": 150,
+   "rule_rate_random": 0.18
+  },
+  {
+   "rule": "trust_v4",
+   "moment": "trust_concern",
+   "version": "v4",
+   "precision": 0.8611111111111112,
+   "precision_ci": [
+    0.713,
+    0.939
+   ],
+   "fires": 36,
+   "recall": 0.6086956521739131,
+   "recall_ci": [
+    0.408,
+    0.778
+   ],
+   "positives_random": 23,
+   "f1": 0.7132292522596549,
+   "labeled_prevalence_random": 0.15333333333333332,
+   "n_random": 150,
+   "rule_rate_random": 0.09333333333333334
+  },
+  {
+   "rule": "transfer_v4",
+   "moment": "transfer_to_agent",
+   "version": "v4",
+   "precision": 0.9886363636363636,
+   "precision_ci": [
+    0.96,
+    0.997
+   ],
+   "fires": 176,
+   "recall": 0.927007299270073,
+   "recall_ci": [
+    0.871,
+    0.96
+   ],
+   "positives_random": 137,
+   "f1": 0.9568304827884824,
+   "labeled_prevalence_random": 0.9133333333333333,
+   "n_random": 150,
+   "rule_rate_random": 0.86
+  },
+  {
+   "rule": "medid_v4",
+   "moment": "medicare_number_request",
+   "version": "v4",
+   "precision": 0.8490566037735849,
+   "precision_ci": [
+    0.729,
+    0.921
+   ],
+   "fires": 53,
+   "recall": 0.6944444444444444,
+   "recall_ci": [
+    0.531,
+    0.82
+   ],
+   "positives_random": 36,
+   "f1": 0.7640067911714771,
+   "labeled_prevalence_random": 0.24,
+   "n_random": 150,
+   "rule_rate_random": 0.2
+  },
+  {
+   "rule": "covered_v4r",
+   "moment": "already_covered",
+   "version": "v4r",
+   "precision": 0.4946236559139785,
+   "precision_ci": [
+    0.395,
+    0.594
+   ],
+   "fires": 93,
+   "recall": 0.8235294117647058,
+   "recall_ci": [
+    0.665,
+    0.917
+   ],
+   "positives_random": 34,
+   "f1": 0.618042226487524,
+   "labeled_prevalence_random": 0.22666666666666666,
+   "n_random": 150,
+   "rule_rate_random": 0.4066666666666667
+  },
+  {
+   "rule": "trust_v4r",
+   "moment": "trust_concern",
+   "version": "v4r",
+   "precision": 0.47058823529411764,
+   "precision_ci": [
+    0.368,
+    0.576
+   ],
+   "fires": 85,
+   "recall": 0.8695652173913043,
+   "recall_ci": [
+    0.679,
+    0.955
+   ],
+   "positives_random": 23,
+   "f1": 0.6106870229007634,
+   "labeled_prevalence_random": 0.15333333333333332,
+   "n_random": 150,
+   "rule_rate_random": 0.34
+  }
+ ]
+}

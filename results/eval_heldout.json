@@ -1,0 +1,822 @@
+{
+ "n_labeled": 100,
+ "n_random": 100,
+ "rules": [
+  {
+   "rule": "tpmo_v1",
+   "moment": "tpmo_disclaimer",
+   "version": "v1",
+   "precision": null,
+   "precision_ci": null,
+   "fires": 0,
+   "recall": null,
+   "recall_ci": null,
+   "positives_random": 0,
+   "f1": null,
+   "labeled_prevalence_random": 0.0,
+   "n_random": 100,
+   "rule_rate_random": 0.0
+  },
+  {
+   "rule": "tpmo_v2",
+   "moment": "tpmo_disclaimer",
+   "version": "v2",
+   "precision": null,
+   "precision_ci": null,
+   "fires": 0,
+   "recall": null,
+   "recall_ci": null,
+   "positives_random": 0,
+   "f1": null,
+   "labeled_prevalence_random": 0.0,
+   "n_random": 100,
+   "rule_rate_random": 0.0
+  },
+  {
+   "rule": "recording_v1",
+   "moment": "recording_notice",
+   "version": "v1",
+   "precision": 1.0,
+   "precision_ci": [
+    0.851,
+    1
+   ],
+   "fires": 22,
+   "recall": 0.9166666666666666,
+   "recall_ci": [
+    0.742,
+    0.977
+   ],
+   "positives_random": 24,
+   "f1": 0.9565217391304348,
+   "labeled_prevalence_random": 0.24,
+   "n_random": 100,
+   "rule_rate_random": 0.22
+  },
+  {
+   "rule": "recording_v2",
+   "moment": "recording_notice",
+   "version": "v2",
+   "precision": 1.0,
+   "precision_ci": [
+    0.857,
+    1
+   ],
+   "fires": 23,
+   "recall": 0.9583333333333334,
+   "recall_ci": [
+    0.798,
+    0.993
+   ],
+   "positives_random": 24,
+   "f1": 0.9787234042553191,
+   "labeled_prevalence_random": 0.24,
+   "n_random": 100,
+   "rule_rate_random": 0.23
+  },
+  {
+   "rule": "affiliation_v1",
+   "moment": "medicare_affiliation_claim",
+   "version": "v1",
+   "precision": null,
+   "precision_ci": null,
+   "fires": 0,
+   "recall": 0.0,
+   "recall_ci": [
+    0,
+    0.041
+   ],
+   "positives_random": 89,
+   "f1": null,
+   "labeled_prevalence_random": 0.89,
+   "n_random": 100,
+   "rule_rate_random": 0.0
+  },
+  {
+   "rule": "affiliation_v2",
+   "moment": "medicare_affiliation_claim",
+   "version": "v2",
+   "precision": 1.0,
+   "precision_ci": [
+    0.951,
+    1
+   ],
+   "fires": 75,
+   "recall": 0.8426966292134831,
+   "recall_ci": [
+    0.753,
+    0.904
+   ],
+   "positives_random": 89,
+   "f1": 0.9146341463414633,
+   "labeled_prevalence_random": 0.89,
+   "n_random": 100,
+   "rule_rate_random": 0.75
+  },
+  {
+   "rule": "moneyback_v1",
+   "moment": "money_back_claim",
+   "version": "v1",
+   "precision": 0.782608695652174,
+   "precision_ci": [
+    0.581,
+    0.903
+   ],
+   "fires": 23,
+   "recall": 0.5142857142857142,
+   "recall_ci": [
+    0.356,
+    0.67
+   ],
+   "positives_random": 35,
+   "f1": 0.6206896551724138,
+   "labeled_prevalence_random": 0.35,
+   "n_random": 100,
+   "rule_rate_random": 0.23
+  },
+  {
+   "rule": "moneyback_v2",
+   "moment": "money_back_claim",
+   "version": "v2",
+   "precision": 1.0,
+   "precision_ci": [
+    0.896,
+    1
+   ],
+   "fires": 33,
+   "recall": 0.9428571428571428,
+   "recall_ci": [
+    0.814,
+    0.984
+   ],
+   "positives_random": 35,
+   "f1": 0.9705882352941176,
+   "labeled_prevalence_random": 0.35,
+   "n_random": 100,
+   "rule_rate_random": 0.33
+  },
+  {
+   "rule": "dnc_v1",
+   "moment": "do_not_call_request",
+   "version": "v1",
+   "precision": null,
+   "precision_ci": null,
+   "fires": 0,
+   "recall": null,
+   "recall_ci": null,
+   "positives_random": 0,
+   "f1": null,
+   "labeled_prevalence_random": 0.0,
+   "n_random": 100,
+   "rule_rate_random": 0.0
+  },
+  {
+   "rule": "dnc_v2",
+   "moment": "do_not_call_request",
+   "version": "v2",
+   "precision": null,
+   "precision_ci": null,
+   "fires": 0,
+   "recall": null,
+   "recall_ci": null,
+   "positives_random": 0,
+   "f1": null,
+   "labeled_prevalence_random": 0.0,
+   "n_random": 100,
+   "rule_rate_random": 0.0
+  },
+  {
+   "rule": "notint_v1",
+   "moment": "not_interested",
+   "version": "v1",
+   "precision": null,
+   "precision_ci": null,
+   "fires": 0,
+   "recall": 0.0,
+   "recall_ci": [
+    0,
+    0.793
+   ],
+   "positives_random": 1,
+   "f1": null,
+   "labeled_prevalence_random": 0.01,
+   "n_random": 100,
+   "rule_rate_random": 0.0
+  },
+  {
+   "rule": "notint_v2",
+   "moment": "not_interested",
+   "version": "v2",
+   "precision": 0.0,
+   "precision_ci": [
+    0,
+    0.658
+   ],
+   "fires": 2,
+   "recall": 0.0,
+   "recall_ci": [
+    0,
+    0.793
+   ],
+   "positives_random": 1,
+   "f1": null,
+   "labeled_prevalence_random": 0.01,
+   "n_random": 100,
+   "rule_rate_random": 0.02
+  },
+  {
+   "rule": "covered_v1",
+   "moment": "already_covered",
+   "version": "v1",
+   "precision": 0.2,
+   "precision_ci": [
+    0.036,
+    0.624
+   ],
+   "fires": 5,
+   "recall": 0.04,
+   "recall_ci": [
+    0.007,
+    0.195
+   ],
+   "positives_random": 25,
+   "f1": 0.06666666666666667,
+   "labeled_prevalence_random": 0.25,
+   "n_random": 100,
+   "rule_rate_random": 0.05
+  },
+  {
+   "rule": "covered_v2",
+   "moment": "already_covered",
+   "version": "v2",
+   "precision": 0.75,
+   "precision_ci": [
+    0.301,
+    0.954
+   ],
+   "fires": 4,
+   "recall": 0.12,
+   "recall_ci": [
+    0.042,
+    0.3
+   ],
+   "positives_random": 25,
+   "f1": 0.20689655172413793,
+   "labeled_prevalence_random": 0.25,
+   "n_random": 100,
+   "rule_rate_random": 0.04
+  },
+  {
+   "rule": "trust_v1",
+   "moment": "trust_concern",
+   "version": "v1",
+   "precision": null,
+   "precision_ci": null,
+   "fires": 0,
+   "recall": 0.0,
+   "recall_ci": [
+    0.0,
+    0.259
+   ],
+   "positives_random": 11,
+   "f1": null,
+   "labeled_prevalence_random": 0.11,
+   "n_random": 100,
+   "rule_rate_random": 0.0
+  },
+  {
+   "rule": "trust_v2",
+   "moment": "trust_concern",
+   "version": "v2",
+   "precision": null,
+   "precision_ci": null,
+   "fires": 0,
+   "recall": 0.0,
+   "recall_ci": [
+    0.0,
+    0.259
+   ],
+   "positives_random": 11,
+   "f1": null,
+   "labeled_prevalence_random": 0.11,
+   "n_random": 100,
+   "rule_rate_random": 0.0
+  },
+  {
+   "rule": "transfer_v1",
+   "moment": "transfer_to_agent",
+   "version": "v1",
+   "precision": 0.9473684210526315,
+   "precision_ci": [
+    0.754,
+    0.991
+   ],
+   "fires": 19,
+   "recall": 0.2,
+   "recall_ci": [
+    0.13,
+    0.294
+   ],
+   "positives_random": 90,
+   "f1": 0.3302752293577982,
+   "labeled_prevalence_random": 0.9,
+   "n_random": 100,
+   "rule_rate_random": 0.19
+  },
+  {
+   "rule": "transfer_v2",
+   "moment": "transfer_to_agent",
+   "version": "v2",
+   "precision": 0.9672131147540983,
+   "precision_ci": [
+    0.888,
+    0.991
+   ],
+   "fires": 61,
+   "recall": 0.6555555555555556,
+   "recall_ci": [
+    0.553,
+    0.746
+   ],
+   "positives_random": 90,
+   "f1": 0.7814569536423842,
+   "labeled_prevalence_random": 0.9,
+   "n_random": 100,
+   "rule_rate_random": 0.61
+  },
+  {
+   "rule": "medid_v1",
+   "moment": "medicare_number_request",
+   "version": "v1",
+   "precision": 0.7142857142857143,
+   "precision_ci": [
+    0.359,
+    0.918
+   ],
+   "fires": 7,
+   "recall": 0.4166666666666667,
+   "recall_ci": [
+    0.193,
+    0.68
+   ],
+   "positives_random": 12,
+   "f1": 0.5263157894736842,
+   "labeled_prevalence_random": 0.12,
+   "n_random": 100,
+   "rule_rate_random": 0.07
+  },
+  {
+   "rule": "medid_v2",
+   "moment": "medicare_number_request",
+   "version": "v2",
+   "precision": 0.3,
+   "precision_ci": [
+    0.181,
+    0.454
+   ],
+   "fires": 40,
+   "recall": 1.0,
+   "recall_ci": [
+    0.757,
+    1
+   ],
+   "positives_random": 12,
+   "f1": 0.4615384615384615,
+   "labeled_prevalence_random": 0.12,
+   "n_random": 100,
+   "rule_rate_random": 0.4
+  },
+  {
+   "rule": "tpmo_v3",
+   "moment": "tpmo_disclaimer",
+   "version": "v3",
+   "precision": null,
+   "precision_ci": null,
+   "fires": 0,
+   "recall": null,
+   "recall_ci": null,
+   "positives_random": 0,
+   "f1": null,
+   "labeled_prevalence_random": 0.0,
+   "n_random": 100,
+   "rule_rate_random": 0.0
+  },
+  {
+   "rule": "recording_v3",
+   "moment": "recording_notice",
+   "version": "v3",
+   "precision": 1.0,
+   "precision_ci": [
+    0.857,
+    1
+   ],
+   "fires": 23,
+   "recall": 0.9583333333333334,
+   "recall_ci": [
+    0.798,
+    0.993
+   ],
+   "positives_random": 24,
+   "f1": 0.9787234042553191,
+   "labeled_prevalence_random": 0.24,
+   "n_random": 100,
+   "rule_rate_random": 0.23
+  },
+  {
+   "rule": "affiliation_v3",
+   "moment": "medicare_affiliation_claim",
+   "version": "v3",
+   "precision": 1.0,
+   "precision_ci": [
+    0.957,
+    1
+   ],
+   "fires": 85,
+   "recall": 0.9550561797752809,
+   "recall_ci": [
+    0.89,
+    0.982
+   ],
+   "positives_random": 89,
+   "f1": 0.9770114942528736,
+   "labeled_prevalence_random": 0.89,
+   "n_random": 100,
+   "rule_rate_random": 0.85
+  },
+  {
+   "rule": "moneyback_v3",
+   "moment": "money_back_claim",
+   "version": "v3",
+   "precision": 1.0,
+   "precision_ci": [
+    0.901,
+    1
+   ],
+   "fires": 35,
+   "recall": 1.0,
+   "recall_ci": [
+    0.901,
+    1
+   ],
+   "positives_random": 35,
+   "f1": 1.0,
+   "labeled_prevalence_random": 0.35,
+   "n_random": 100,
+   "rule_rate_random": 0.35
+  },
+  {
+   "rule": "dnc_v3",
+   "moment": "do_not_call_request",
+   "version": "v3",
+   "precision": null,
+   "precision_ci": null,
+   "fires": 0,
+   "recall": null,
+   "recall_ci": null,
+   "positives_random": 0,
+   "f1": null,
+   "labeled_prevalence_random": 0.0,
+   "n_random": 100,
+   "rule_rate_random": 0.0
+  },
+  {
+   "rule": "notint_v3",
+   "moment": "not_interested",
+   "version": "v3",
+   "precision": null,
+   "precision_ci": null,
+   "fires": 0,
+   "recall": 0.0,
+   "recall_ci": [
+    0,
+    0.793
+   ],
+   "positives_random": 1,
+   "f1": null,
+   "labeled_prevalence_random": 0.01,
+   "n_random": 100,
+   "rule_rate_random": 0.0
+  },
+  {
+   "rule": "covered_v3",
+   "moment": "already_covered",
+   "version": "v3",
+   "precision": 0.875,
+   "precision_ci": [
+    0.529,
+    0.978
+   ],
+   "fires": 8,
+   "recall": 0.28,
+   "recall_ci": [
+    0.143,
+    0.476
+   ],
+   "positives_random": 25,
+   "f1": 0.42424242424242425,
+   "labeled_prevalence_random": 0.25,
+   "n_random": 100,
+   "rule_rate_random": 0.08
+  },
+  {
+   "rule": "trust_v3",
+   "moment": "trust_concern",
+   "version": "v3",
+   "precision": 1.0,
+   "precision_ci": [
+    0.438,
+    1
+   ],
+   "fires": 3,
+   "recall": 0.2727272727272727,
+   "recall_ci": [
+    0.097,
+    0.566
+   ],
+   "positives_random": 11,
+   "f1": 0.42857142857142855,
+   "labeled_prevalence_random": 0.11,
+   "n_random": 100,
+   "rule_rate_random": 0.03
+  },
+  {
+   "rule": "transfer_v3",
+   "moment": "transfer_to_agent",
+   "version": "v3",
+   "precision": 0.9767441860465116,
+   "precision_ci": [
+    0.919,
+    0.994
+   ],
+   "fires": 86,
+   "recall": 0.9333333333333333,
+   "recall_ci": [
+    0.862,
+    0.969
+   ],
+   "positives_random": 90,
+   "f1": 0.9545454545454545,
+   "labeled_prevalence_random": 0.9,
+   "n_random": 100,
+   "rule_rate_random": 0.86
+  },
+  {
+   "rule": "medid_v3",
+   "moment": "medicare_number_request",
+   "version": "v3",
+   "precision": 0.3,
+   "precision_ci": [
+    0.181,
+    0.454
+   ],
+   "fires": 40,
+   "recall": 1.0,
+   "recall_ci": [
+    0.757,
+    1
+   ],
+   "positives_random": 12,
+   "f1": 0.4615384615384615,
+   "labeled_prevalence_random": 0.12,
+   "n_random": 100,
+   "rule_rate_random": 0.4
+  },
+  {
+   "rule": "tpmo_v4",
+   "moment": "tpmo_disclaimer",
+   "version": "v4",
+   "precision": null,
+   "precision_ci": null,
+   "fires": 0,
+   "recall": null,
+   "recall_ci": null,
+   "positives_random": 0,
+   "f1": null,
+   "labeled_prevalence_random": 0.0,
+   "n_random": 100,
+   "rule_rate_random": 0.0
+  },
+  {
+   "rule": "recording_v4",
+   "moment": "recording_notice",
+   "version": "v4",
+   "precision": 1.0,
+   "precision_ci": [
+    0.857,
+    1
+   ],
+   "fires": 23,
+   "recall": 0.9583333333333334,
+   "recall_ci": [
+    0.798,
+    0.993
+   ],
+   "positives_random": 24,
+   "f1": 0.9787234042553191,
+   "labeled_prevalence_random": 0.24,
+   "n_random": 100,
+   "rule_rate_random": 0.23
+  },
+  {
+   "rule": "affiliation_v4",
+   "moment": "medicare_affiliation_claim",
+   "version": "v4",
+   "precision": 1.0,
+   "precision_ci": [
+    0.957,
+    1
+   ],
+   "fires": 85,
+   "recall": 0.9550561797752809,
+   "recall_ci": [
+    0.89,
+    0.982
+   ],
+   "positives_random": 89,
+   "f1": 0.9770114942528736,
+   "labeled_prevalence_random": 0.89,
+   "n_random": 100,
+   "rule_rate_random": 0.85
+  },
+  {
+   "rule": "moneyback_v4",
+   "moment": "money_back_claim",
+   "version": "v4",
+   "precision": 1.0,
+   "precision_ci": [
+    0.901,
+    1
+   ],
+   "fires": 35,
+   "recall": 1.0,
+   "recall_ci": [
+    0.901,
+    1
+   ],
+   "positives_random": 35,
+   "f1": 1.0,
+   "labeled_prevalence_random": 0.35,
+   "n_random": 100,
+   "rule_rate_random": 0.35
+  },
+  {
+   "rule": "dnc_v4",
+   "moment": "do_not_call_request",
+   "version": "v4",
+   "precision": null,
+   "precision_ci": null,
+   "fires": 0,
+   "recall": null,
+   "recall_ci": null,
+   "positives_random": 0,
+   "f1": null,
+   "labeled_prevalence_random": 0.0,
+   "n_random": 100,
+   "rule_rate_random": 0.0
+  },
+  {
+   "rule": "notint_v4",
+   "moment": "not_interested",
+   "version": "v4",
+   "precision": null,
+   "precision_ci": null,
+   "fires": 0,
+   "recall": 0.0,
+   "recall_ci": [
+    0,
+    0.793
+   ],
+   "positives_random": 1,
+   "f1": null,
+   "labeled_prevalence_random": 0.01,
+   "n_random": 100,
+   "rule_rate_random": 0.0
+  },
+  {
+   "rule": "covered_v4",
+   "moment": "already_covered",
+   "version": "v4",
+   "precision": 0.7857142857142857,
+   "precision_ci": [
+    0.524,
+    0.924
+   ],
+   "fires": 14,
+   "recall": 0.44,
+   "recall_ci": [
+    0.267,
+    0.629
+   ],
+   "positives_random": 25,
+   "f1": 0.5641025641025641,
+   "labeled_prevalence_random": 0.25,
+   "n_random": 100,
+   "rule_rate_random": 0.14
+  },
+  {
+   "rule": "trust_v4",
+   "moment": "trust_concern",
+   "version": "v4",
+   "precision": 1.0,
+   "precision_ci": [
+    0.438,
+    1
+   ],
+   "fires": 3,
+   "recall": 0.2727272727272727,
+   "recall_ci": [
+    0.097,
+    0.566
+   ],
+   "positives_random": 11,
+   "f1": 0.42857142857142855,
+   "labeled_prevalence_random": 0.11,
+   "n_random": 100,
+   "rule_rate_random": 0.03
+  },
+  {
+   "rule": "transfer_v4",
+   "moment": "transfer_to_agent",
+   "version": "v4",
+   "precision": 0.9767441860465116,
+   "precision_ci": [
+    0.919,
+    0.994
+   ],
+   "fires": 86,
+   "recall": 0.9333333333333333,
+   "recall_ci": [
+    0.862,
+    0.969
+   ],
+   "positives_random": 90,
+   "f1": 0.9545454545454545,
+   "labeled_prevalence_random": 0.9,
+   "n_random": 100,
+   "rule_rate_random": 0.86
+  },
+  {
+   "rule": "medid_v4",
+   "moment": "medicare_number_request",
+   "version": "v4",
+   "precision": 0.47619047619047616,
+   "precision_ci": [
+    0.283,
+    0.676
+   ],
+   "fires": 21,
+   "recall": 0.8333333333333334,
+   "recall_ci": [
+    0.552,
+    0.953
+   ],
+   "positives_random": 12,
+   "f1": 0.6060606060606061,
+   "labeled_prevalence_random": 0.12,
+   "n_random": 100,
+   "rule_rate_random": 0.21
+  },
+  {
+   "rule": "covered_v4r",
+   "moment": "already_covered",
+   "version": "v4r",
+   "precision": 0.5365853658536586,
+   "precision_ci": [
+    0.387,
+    0.679
+   ],
+   "fires": 41,
+   "recall": 0.88,
+   "recall_ci": [
+    0.7,
+    0.958
+   ],
+   "positives_random": 25,
+   "f1": 0.6666666666666667,
+   "labeled_prevalence_random": 0.25,
+   "n_random": 100,
+   "rule_rate_random": 0.41
+  },
+  {
+   "rule": "trust_v4r",
+   "moment": "trust_concern",
+   "version": "v4r",
+   "precision": 0.24,
+   "precision_ci": [
+    0.115,
+    0.434
+   ],
+   "fires": 25,
+   "recall": 0.5454545454545454,
+   "recall_ci": [
+    0.28,
+    0.787
+   ],
+   "positives_random": 11,
+   "f1": 0.3333333333333333,
+   "labeled_prevalence_random": 0.11,
+   "n_random": 100,
+   "rule_rate_random": 0.25
+  }
+ ]
+}

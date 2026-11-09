@@ -1,0 +1,197 @@
+[
+ {
+  "id": "tpmo_v4",
+  "moment": "tpmo_disclaimer",
+  "version": "v4",
+  "any": [
+   "(do not | don't | dont | not | cannot | can't) offer every plan",
+   "not able to offer every plan",
+   "every plan available in your area",
+   "we do not offer every",
+   "not (licensed | contracted | appointed) with every ~ (carrier | company | plan | insurance)",
+   "state health insurance (assistance)? program",
+   "(medicare dot gov | medicare gov | 1 800 medicare | one eight hundred medicare)"
+  ]
+ },
+ {
+  "id": "recording_v4",
+  "moment": "recording_notice",
+  "version": "v4",
+  "any": [
+   "recorded",
+   "(call | calls | conversation | line) ~ (monitored)",
+   "for quality (and | &) training"
+  ],
+  "not_in": []
+ },
+ {
+  "id": "affiliation_v4",
+  "moment": "medicare_affiliation_claim",
+  "version": "v4",
+  "any": [
+   "medicare ~ ~ (updated | upgraded | renewed | update | upgrade | upgradation | updates | upgrading | updating)",
+   "(calling | call) (you)? (from | on behalf of) (the)? medicare",
+   "medicare (is | has) ~ (sending | giving | providing)"
+  ],
+  "not_in": [
+   "not (from | with | calling from) (the)? medicare",
+   "we are not medicare",
+   "do not work for medicare"
+  ]
+ },
+ {
+  "id": "moneyback_v4",
+  "moment": "money_back_claim",
+  "version": "v4",
+  "any": [
+   "(on | in | to | into) (your | the)? social security (check | checks | benefit | benefits | payment)",
+   "give back",
+   "money back",
+   "cash back",
+   "(every month | monthly | each month) ~ (in | on | into | to) (your | the)? ~ (social security | security | [organization])",
+   "(deposited | added | credited) ~ (security | social security | check)",
+   "part b ~ (reduction | reimbursement | give)"
+  ],
+  "not_in": [
+   "call (you)? back",
+   "get back to you"
+  ]
+ },
+ {
+  "id": "dnc_v4",
+  "moment": "do_not_call_request",
+  "version": "v4",
+  "any": [
+   "(don't | do not | dont | stop | quit | never) (call | calling) (me | here | this number | my (number | phone | house)) (again | anymore | no more | any more)",
+   "(stop | quit) calling",
+   "take (me | my number | my name | us) off ~ (list | lists)",
+   "(put | place | add) (me | my number | my name) on ~ (do not call | dnc)",
+   "(don't | do not) call (here | this number) ",
+   "(never | don't | do not) (ever)? call (me)? (again | anymore)"
+  ],
+  "not_in": [
+   "(i'll | i will | we'll | we will | they'll | they will | i'm going to | i'm gonna | will) ~ (put | add | place | remove) ~ (you | your)",
+   "you have been added",
+   "even if you're on",
+   "even if you are on",
+   "(they | he | she | it | people) ~ (not | never | don't | do not) ~ (call | calling)",
+   "(i'll | i will | we'll) (call | give) you (back | a call)"
+  ]
+ },
+ {
+  "id": "notint_v4",
+  "moment": "not_interested",
+  "version": "v4",
+  "any": [
+   "(i'm | i am | im | we're | we are) ~ not interested",
+   "i'm not (looking | changing | switching)",
+   "i (don't | do not) want to change (anything | my | it)",
+   "^ no i (don't | do not) want (it | that | this)"
+  ],
+  "not_in": [
+   "(if | case | unless) ~ not interested",
+   "you're not interested",
+   "you are not interested",
+   "why (are | would) you",
+   "from your",
+   "your information",
+   "my information"
+  ],
+  "utterance_threshold": 0.88
+ },
+ {
+  "id": "covered_v4",
+  "moment": "already_covered",
+  "version": "v4",
+  "any": [
+   "i (already)? (have | got) (a | my | an)? (supplement | medigap | advantage | insurance | coverage | plan | humana | aetna | united | [organization])",
+   "i'm (happy | satisfied | good | fine) with (my | the | what) ~ (plan | insurance | coverage | have | got)",
+   "i'm (also)? (on | with | covered) ~ (medicaid | [organization] | plan | insurance | carrier | va | tricare)",
+   "i (have | get | got | receive) (medicaid | tricare | va | the va | champva)",
+   "i (have | got) ~ part (n | c | d | g | f)",
+   "through my (union | employer | job | work | husband | wife | retirement)",
+   "i already (have | got | signed)",
+   "(i | we) (have | got) (a | an | my)? (separate | another | other | second | secondary | extra) (insurance | coverage | plan)",
+   "(i | we) (have | got | had) (got)? ~ [organization]",
+   "(i've | we've) (had | got) ~ [organization]",
+   "(i | we) (have | got) (medicaid | welfare | tricare | va | the va | a supplement | supplement | medigap)"
+  ],
+  "not_in": [
+   "you already have",
+   "do you (already)? have",
+   "if you (already)? have",
+   "i already have (your | in my)"
+  ],
+  "also": [
+   {
+    "any": [
+     "^ (yes | yeah | yep | i do | correct | uh huh) "
+    ],
+    "prev": [
+     "(do | did) you (have | get | receive) ~ (medicaid | supplement | medigap | advantage | other insurance | another insurance | secondary insurance | any insurance | insurance from)"
+    ],
+    "not_in": [
+     "medicare",
+     "^ (yes | yeah) (no | not)"
+    ]
+   }
+  ],
+  "utterance_threshold": 0.84
+ },
+ {
+  "id": "trust_v4",
+  "moment": "trust_concern",
+  "version": "v4",
+  "any": [
+   "(scam | scams | scammer | scammers | scamming | fraud | rip off)",
+   "how (did | do) you get my (number | information | info | name | phone)",
+   "(don't | do not | won't | not gonna | not going to | rather not | generally don't | don't want to | do not want to) ~ (give | giving) ~ (that | it | this | out | my | any)",
+   "why (do | would) you (need | want) (that | the | my | to know)",
+   "without (me)? giving you",
+   "not answering any more questions",
+   "(give | giving | gave) ~ (information | info | number | numbers) ~ (over | on) the phone",
+   "why do (i | you) need (the | my) (card | number | medicare number)"
+  ],
+  "not_in": [
+   "fraud prevention",
+   "(verification | security) (and | &) fraud"
+  ]
+ },
+ {
+  "id": "transfer_v4",
+  "moment": "transfer_to_agent",
+  "version": "v4",
+  "any": [
+   "(transfer | transferring | connect | connecting | patch | patching) (you | your call | the call | this call) (to | with | over)",
+   "(get | getting) (you | your call | this call | the call) ~ (connected | transferred)",
+   "(connected | transferred) (to | with) (my | the | one of my | a | an | our)",
+   "(disconnect | connect) (your)? call ~ (to | with) (my | the)",
+   "(stay | hold) on the line"
+  ],
+  "not_in": [
+   "transfer of"
+  ],
+  "window": [
+   20,
+   100000
+  ]
+ },
+ {
+  "id": "medid_v4",
+  "moment": "medicare_number_request",
+  "version": "v4",
+  "any": [
+   "(medicare | mbi) ~ (number | id)",
+   "number (on | from | off | of) (your | the) (red white (and)? blue | red white blue | medicare)? ~ card",
+   "(read | give | tell | provide) (me)? (the | your | that) ~ (number | id)",
+   "(i'm going to need | i'm gonna need | i'll need | we'll need | i will need | we will need | i need | we need) (your | the) ~ (card | number | id)"
+  ],
+  "not_in": [
+   "not asking",
+   "(don't | do not) want to give",
+   "(will | he'll | she'll | they'll | gonna | going to | might | may) ~ (ask | asking)",
+   "(have | got) (your | the) ~ card ~ (with you | handy | ready | near you | nearby)",
+   "(social | ssn)"
+  ]
+ }
+]

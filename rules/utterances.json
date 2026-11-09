@@ -1,0 +1,46 @@
+{
+  "trust_concern": [
+    "Is this a scam?",
+    "This sounds like a scam to me.",
+    "How do I know you're not a scammer?",
+    "How did you get my number?",
+    "Who is this really?",
+    "Are you really from Medicare?",
+    "I don't give out my information over the phone.",
+    "I'm not comfortable giving my Medicare number over the phone.",
+    "I was told never to give my Medicare number to anyone who calls me.",
+    "Why do you need my Medicare card number?",
+    "I'm not giving you my Social Security number.",
+    "I don't know who you are, so I'm not telling you that.",
+    "Give me your phone number and I'll call Medicare myself to check.",
+    "There are a lot of scams going on, I have to be careful."
+  ],
+  "already_covered": [
+    "I already have a Medicare Advantage plan.",
+    "I already have a supplement plan.",
+    "I'm happy with the plan I have now.",
+    "I want to keep my plan.",
+    "I have insurance through my husband's job.",
+    "I have Medicaid as well.",
+    "I get my coverage through the VA.",
+    "I have [ORGANIZATION] and I'm satisfied with it.",
+    "I just signed up for a new plan.",
+    "My plan already covers dental and vision.",
+    "I have a union retiree plan.",
+    "My daughter already set up my insurance.",
+    "I'm already covered.",
+    "I have Part A, Part B and a Part D plan."
+  ],
+  "not_interested": [
+    "I'm not interested.",
+    "No thank you, I don't need anything.",
+    "I don't want it.",
+    "I'm fine with what I have, thank you.",
+    "I don't need any service.",
+    "I'm not changing anything.",
+    "No, I'm good, thanks.",
+    "I'm not looking for anything right now.",
+    "That's okay, I'll pass.",
+    "I don't want to do this."
+  ]
+}
