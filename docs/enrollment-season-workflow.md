@@ -2,13 +2,13 @@
 
 Medicare's annual open enrollment runs from October 15 to December 7. Since October 1, 2026, under CMS's CY2027 marketing rules, a third-party marketer has to read its disclaimer before discussing any benefits. From October 2022 until then, the rule was within the first minute of the call. In that era the disclaimer began "We do not offer every plan available in your area," and that's the wording these calls use.
 
-This page shows how I'd build that check as a workflow in a no-code tool like Cresta Opera, and what happens when 3,750 past calls are replayed through it. The calls are undated. The dataset was published in mid-2025, and some calls may even predate the disclaimer rule. So the replay measures how far scripts of that era are from the new rule, and says nothing about how agents behave under it.
+This page shows how I'd build that check as a workflow in a no-code tool like Cresta Opera, and what happens when 3,750 past calls are replayed through it. Cresta's tools work with keyword and example-sentence rules like these as well as trained AI models. The test before go-live and the alert budget apply to either. The calls are undated. The dataset was published in mid-2025, and some calls may even predate the disclaimer rule. So the replay measures how far scripts of that era are from the new rule, and says nothing about how agents behave under it.
 
 ## What the replay shows
 
 - **The first benefit comes early.** The agent names a specific benefit (dental, vision, transportation, a $0 premium, or money back) in 70% of calls. The trigger finds the first one a median of 49 seconds in, a quarter of them by 38 seconds. The real first benefit often comes a sentence earlier (see the rollout notes below).
 - **The disclaimer comes late or never.** It's read in 42 of the 3,750 calls, a median of about 8 minutes in. Of the 2,607 calls that name a benefit, 2,583 never read it. In the other 24, the benefit came first, 3 to 20 minutes earlier.
-- **A live prompt alone would be noise.** "Read the disclaimer now" would fire on 70% of calls, and always after the benefit had already been said.
+- **A live prompt alone would be noise.** "Read the disclaimer now" would fire on 70% of calls, and always after the benefit had already been said. That's an upper bound: the trigger counts any named benefit, such as dental, and some industry guides on the CY2027 rule say a general mention doesn't count as discussing benefits, while a specific plan's costs or benefits do.
 
 So the first fix is the script, not the prompt. The disclaimer goes into the opener, before the first benefit, and the live workflow becomes a safety net that should rarely fire.
 
