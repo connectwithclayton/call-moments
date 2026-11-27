@@ -1,24 +1,53 @@
 # Call Moments
 
-Rules that flag the moments that matter in sales calls, measured against labeled calls instead of assumed to work.
+Before you put a live alert on a sales agent's screen, test it and count how often it would fire. This project does both on 4,005 real Medicare sales calls.
 
-## In one minute
+## The 60-second version
 
-- **18 rules, graded before anyone uses them.** On 4,005 real, PII-redacted Medicare sales calls, four rules clear the bar for live alerts: precision of 90% or more and recall of 80% or more on 100 held-out calls. The rest are graded QA only, not yet, too rare to test, or exploratory ([the table](#read-this-first)).
-- **Compliance gaps.** 84% of calls open by implying Medicare is calling. The third-party disclaimer is read in 1.1% of calls (44). In the 24 of those where the benefit trigger also finds a specific benefit, the benefit always comes first, 3 to 20 minutes earlier. Since Oct 1, 2026, the disclaimer has to come first.
-- **A workflow for enrollment season.** Replaying 3,750 calls through a disclaimer-before-benefits check, the trigger finds the first benefit a median of 49 seconds in, often a sentence late. A live prompt would fire on 7 of every 10 calls, so the script is the fix and live guidance is the safety net ([the build sheet](docs/enrollment-season-workflow.md)).
-- **What it can't show: what wins.** Three apparent conversion wins were withdrawn. Checks found recordings that start after the handoff, handoffs the transfer rule missed, and moments said after the transfer.
+*Written to be said out loud.*
+
+I set sales appointments at Hilton Grand Vacations and use Cresta at work. Before applying to work on AI for contact centers, I wanted to do the job once on my own.
+
+I took 4,005 real, redacted Medicare sales calls and wrote rules that spot 18 moments, like the opening line, a required disclaimer, and a customer asking to stop being called. I tested each rule on 100 calls it had never seen. Four were right at least 9 times in 10, so they're accurate enough to measure with.
+
+But accurate isn't enough for a live alert. It also has to be rare. Most of these calls open by implying Medicare is calling, and almost none read the required disclaimer before benefits. An alert for either would pop up on most calls, and agents tune out alerts like that. So the fix is the script.
+
+I also got one wrong. I thought asking for the Medicare number cost transfers. It didn't hold up, so I withdrew it.
+
+## Why a contact-center team would care
+
+- **Two tests before go-live.** A live alert has to be right and rare. Right means it passes a bar set in advance on calls it never saw. Rare means it fires on few calls. On these calls no rule passes both yet, which says fix the scripts first and send the rare flags to a person.
+- **A price on every alert.** Count the share of calls a rule would interrupt. If it fires on most calls, the script is the problem, not the agent. My rule of thumb is that a live alert should fire on fewer than 1 call in 10.
+- **A check ready for enrollment season.** Since Oct 1, 2026, Medicare marketers must read their disclaimer before discussing benefits. The [build sheet](docs/enrollment-season-workflow.md) lays out that check and replays it on 3,750 past calls first.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/img/alert-budget-dark.png">
   <img alt="Bar chart of the share of calls each compliance rule would alert on if it ran live: no recording notice before the handoff 98%, opener implies Medicare is calling 90%, benefit before the disclaimer 70%, money-back promise 40%, 'no one will call you again' 5%, stop-calling request 0.3%, against a rule of thumb of under 1 call in 10 for a live alert." src="docs/img/alert-budget-light.png">
 </picture>
 
-Only the two rare rules fit the 1-in-10 budget, and neither is Ready yet, so a person reads their flags. The rest need a script or process fix, not an alert.
+Only the two rare rules fit under 1 call in 10, and neither is Ready yet, so a person reads their flags. The others need a script or process fix, not an alert. These rates come from calls made before mid-2025, so they describe old scripts, not today's.
 
-## What's here
+What this can't show is what makes a sale. The calls end a couple of minutes after the handoff to a licensed agent, and none records a finished enrollment.
 
-The calls are 4,005 PII-redacted outbound Medicare sales calls (433 hours) from a public research dataset. The project defines 18 moments, writes rules for each, has AI reviewers label 301 calls against written guidelines, freezes every rule version, and scores them once on 100 held-out calls the rules never saw. Then it runs the rules across every call to turn hits into findings a contact-center team could act on.
+## Words used here
+
+- **Moment:** something said on a call that matters, like a disclaimer or a stop-calling request.
+- **Rule:** a list of phrases that flags a moment, with exceptions and timing limits.
+- **Flag:** a place where a rule fires.
+- **Labels:** the answer key, saying which calls really contain each moment. Here an AI drafted them against written guidelines; people didn't.
+- **Precision:** when the rule flags something, how often it's right.
+- **Recall:** of the real cases, how many the rule catches.
+- **F1:** one score that combines precision and recall. 1.00 is perfect.
+- **Held-out calls:** 100 random calls kept aside and used once, for the final test. The rules never saw them while being written, like an exam the rules didn't study for.
+- **Tuning calls:** 201 separate labeled calls used while improving the rules.
+- **Frozen:** each rule version was locked and fingerprinted (a hash) before the final test, so it couldn't be tweaked to fit the answers.
+- **Handoff:** the first agent transferring the customer to a licensed agent. It's the only outcome these calls record.
+- **TPMO disclaimer:** the line a third-party marketer must read, saying it doesn't offer every plan in the customer's area.
+- **Alert budget:** the share of calls a rule would interrupt if it alerted agents live, counted at most once per call.
+
+## Who did what
+
+I'm not a programmer. I picked the problem and questioned the results as they came in. When I said the data looked outdated, every rule got a grade for how far to trust it. When I asked whether it showed what wins, three findings were withdrawn. Claude, an AI model, wrote the code, drafted the labels and ran the independent checks, and the commits list it as co-author. Because the answer key is AI-drafted, a real rollout starts by having people label 100 current calls.
 
 ## Read this first
 
@@ -26,7 +55,7 @@ The calls are 4,005 PII-redacted outbound Medicare sales calls (433 hours) from 
 
 **How usable each rule is.** Each rule is graded on the 100 held-out calls:
 
-- **Ready:** precision of 90% or more and recall of 80% or more. Fine for live alerts and for reporting rates.
+- **Ready:** precision of 90% or more and recall of 80% or more. Accurate enough for reporting rates and for live alerts, though a live alert also has to be rare (see the chart above).
 - **QA only:** recall of 80% or more and precision of 50% or more. It catches most cases, but a person checks each flag.
 - **Not yet:** below both bars.
 - **Too rare to test:** fewer than 10 held-out cases. A person reads every flag.
@@ -34,10 +63,10 @@ The calls are 4,005 PII-redacted outbound Medicare sales calls (433 hours) from 
 
 | Moment | Status | Use it for | Evidence |
 |---|---|---|---|
-| Medicare affiliation claim | Ready | Live alerts and rate reporting | held-out: 85 of 85 flags right, 85 of 89 cases caught |
-| Money-back claim | Ready | Live alerts and rate reporting | held-out: 35 of 35 flags right, 35 of 35 cases caught |
-| Recording notice | Ready | Live alerts and rate reporting | held-out: 23 of 23 flags right, 23 of 24 cases caught |
-| Transfer to licensed agent | Ready | Rate reporting: it is the conversion outcome | held-out: 84 of 86 flags right, 84 of 90 cases caught |
+| Medicare affiliation claim | Ready | Rate reporting; accurate enough for live alerts | held-out: 85 of 85 flags right, 85 of 89 cases caught |
+| Money-back claim | Ready | Rate reporting; accurate enough for live alerts | held-out: 35 of 35 flags right, 35 of 35 cases caught |
+| Recording notice | Ready | Rate reporting; accurate enough for live alerts | held-out: 23 of 23 flags right, 23 of 24 cases caught |
+| Transfer to licensed agent | Ready | Rate reporting: it is the only outcome these calls record | held-out: 84 of 86 flags right, 84 of 90 cases caught |
 | Already covered | QA only | A QA queue where a person checks each flag | held-out: 22 of 41 flags right, 22 of 25 cases caught (recall mode) |
 | Bad time, call back | Not yet | Not for use yet | 16 of 25 random hits judged right; recall not measured |
 | Medicare number request | Not yet | Not for use yet | held-out: 10 of 21 flags right, 10 of 12 cases caught |
@@ -57,7 +86,7 @@ Re-test on 100 freshly labeled current calls before relying on any grade.
 
 ## Results on the held-out test
 
-100 random calls, never used while writing rules, scored once after every version was frozen (hashes in `rules/FROZEN.txt`). Precision counts every flag; recall counts random calls only.
+100 random calls, never used while writing rules, scored once after every version was frozen (hashes in `rules/FROZEN.txt`). Read each row as: when the rule flags, how often it's right (precision), and how many real cases it catches (recall).
 
 | Moment | v1 F1 | v2 F1 | v4 F1 | v4 precision | v4 recall | Positives |
 |---|---|---|---|---|---|---|
@@ -77,7 +106,7 @@ Scripted agent moments are easy for rules; the Medicare-number ask, also agent-s
 
 Rates from calls made before mid-2025, each tagged with the grade of the rule behind it.
 
-- **84%** of calls open by implying Medicare itself is calling ("your Medicare is getting upgraded"), about 12 seconds in. Labels on 250 random calls put it at 85.6%. A third of all calls pair it with a money-back promise (a giveback, a Part B reduction, or money added to the Social Security check). *Ready.*
+- **84%** of all 4,005 recordings open by implying Medicare itself is calling ("your Medicare is getting upgraded"), about 12 seconds in. Labels on 250 random calls put it at 85.6%. The alert budget's 90% is the same rule counted on the 3,750 recordings that start at the beginning of the call. A third of all calls pair it with a money-back promise (a giveback, a Part B reduction, or money added to the Social Security check). *Ready.*
 - The third-party marketer disclaimer appears in **44 calls (1.1%)**, never in the first minute, which was the CMS rule from October 2022 to September 2026. Since Oct 1, 2026 (CY2027), it must come before any benefits are discussed. In 24 of the 44, a specific benefit comes first, 3 to 20 minutes earlier; the benefit trigger finds none in the other 20. Of the 2,607 calls recorded from the start where the agent names a benefit, 2,583 never read the disclaimer at all ([the enrollment-season workflow](docs/enrollment-season-workflow.md)). *Too rare to test; labels on 250 random calls agree (1.2%).*
 - An independent read of all 16 flagged do-not-call calls found **13 genuine requests**. In 11 the pitch continued, and in 6 the agent promised the calls would stop. That promise appears in 198 calls, two times in three just after the transfer cue, so it's part of the handoff script. *Too rare to test, so a reviewer read every flag; the promise rule is exploratory.*
 - **What wins can't be read from these calls yet.** The only outcome recorded is the handoff to a licensed agent. Recordings stop a median of 2.5 minutes after it, and none captures a finished enrollment. 255 recordings open after the handoff ("thank you for holding"), so a transfer rarely shows in them. Of the other 3,750, 97% are handed off once you count the connection lines the transfer rule missed. About one recording in ten overlaps another recording of the same call. Counted only before the handoff, and with every call given the same time, no moment moves the handoff rate enough to act on (`results/transfer_from_start.json`). *Not yet: there's no outcome past the handoff.*
@@ -129,15 +158,16 @@ The transcripts come from [AIxBlock, 92k real-world call center scripts](https:/
 
 ## Independent check
 
-A separate checker recomputed every published number from the raw files with its own code (109 claims). It caught a few slips: a rounding error, one mis-stated definition, a claim about the disclaimer rule that changed on Oct 1, 2026, and some overstated wording. All are fixed here.
-
-Two later reviews, prompted by the question of what wins, found what that check missed: recordings that open after the handoff, handoffs the transfer rule missed, moments said after the transfer, and overlapping recordings of the same call. Together they withdrew the Medicare-number lead and two other reads of what wins (`results/transfer_from_start.json`).
+A separate AI checker recomputed the published numbers from the raw files with its own code and caught a few slips, which are fixed here. Two later reviews found why three apparent wins were wrong (recordings that start after the handoff, missed handoffs, moments said after the transfer, overlapping recordings) and withdrew them (`results/transfer_from_start.json`). Some withdrawn comparisons are still in `results/corpus_findings.json`; [results/README.md](results/README.md) says which.
 
 ## Limits
 
 - Labels are AI-drafted: careful but not perfect. On the card check versus the Medicare-number ask, similar calls got different answers.
 - The handoff is the only outcome, and 97% of calls recorded from the start get one, so the few misses can't show what loses. The transfer rule misses some handoffs: in the labeled sample, 7 of the 20 recordings it marks as not transferred were labeled transferred. Transfer comparisons set aside the 255 recordings that open after the handoff and count moments only before it (`scripts/analysis_success.py`). Every comparison is an association.
 - Calls have no dates. The dataset was published in mid-2025, and the disclaimer rule began in October 2022, so some calls may predate it. Disclosures are checked against the first-minute rule (October 2022 to September 2026) and the before-benefits rule since Oct 1, 2026. There are no trends over time.
+- Ready is judged on the measured rates, and the samples are small. The recording notice was right on 23 of 23 flags, but with only 23, its true precision could be as low as about 86%. Treat Ready as a strong first read, then re-test.
+- The benefit trigger counts any named benefit, such as dental. Some industry guides on the CY2027 rule say a general mention doesn't count as discussing benefits, while a specific plan's costs or benefits do. If CMS reads it that way, the 70% prompt rate is an upper bound.
+- Transcripts may leave out automated messages, such as a recorded notice played by the phone system, so the missing recording notice is what an agent said, not necessarily what the customer heard.
 - Customer moments are rare. The held-out test has 25 already-covered and 11 trust positives, but only 1 not-interested and no do-not-call, so their intervals are wide.
 - About one recording in ten overlaps another recording of the same call: 183 to 240 pairs of adjacent recordings, depending on the matching rule, often the first agent's side and the licensed agent's side. None crosses between the tuning and held-out sets. Corpus-wide rates count recordings, not calls.
 
