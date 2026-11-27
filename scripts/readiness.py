@@ -18,7 +18,7 @@ M = json.load(open(moments))
 X = json.load(open(extra))
 
 LABEL = {"ready": "Ready", "qa": "QA only", "not_yet": "Not yet", "too_rare": "Too rare to test", "exploratory": "Exploratory"}
-USE = {"ready": "Live alerts and rate reporting", "qa": "A QA queue where a person checks each flag",
+USE = {"ready": "Rate reporting; accurate enough for live alerts", "qa": "A QA queue where a person checks each flag",
        "not_yet": "Not for use yet", "too_rare": "Only with a person reading every flag",
        "exploratory": "Reading calls and sampling; not for rates"}
 
@@ -63,7 +63,7 @@ for m in M:
     res[k] = {"level": lvl, "label": LABEL[lvl], "use": USE[lvl], "precision": p, "recall": rc, "variant": r["version"],
               "flags": r["flags"], "correct": r["correct"], "positives": r["positives"], "caught": r["caught"], "evidence": ev}
 if res["transfer_to_agent"]["level"] == "ready":
-    res["transfer_to_agent"]["use"] = "Rate reporting: it is the conversion outcome"
+    res["transfer_to_agent"]["use"] = "Rate reporting: it is the only outcome these calls record"
 # extra evidence for the rare moments
 res["do_not_call_request"]["evidence"] += "; every flagged call read by an independent reviewer: 13 of 16 were real"
 res["tpmo_disclaimer"]["evidence"] += "; tuning set: 21 of 21 flags right; labels on 250 random calls find it in 1.2%, rules in 1.1%"
